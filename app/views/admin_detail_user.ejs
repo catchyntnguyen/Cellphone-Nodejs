@@ -1,0 +1,45 @@
+<%- include('admin_header.ejs')%>
+<div class="wrapper-body">
+    <h2>Chi tiết người dùng</h2>
+    <form action="/user_update" id="updateForm" method="POST" enctype="multipart/form-data">
+        <div class="form-left">
+            <!-- input ẩn -->
+            <input type="hidden" name="id" value="<%=userId[0].id%>">               
+            <!-- input ẩn -->
+            <label for="name">Tên Người dùng:</label>
+            <input type="text" id="name" name="name" value="<%=userId[0].name%>" required>
+            
+            <label for="phone">Số điện thoại:</label>
+            <input type="text" id="phone" name="phone" value="<%=userId[0].phone%>" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="<%=userId[0].email%>">
+        </div>
+
+        <div class="form-right">
+            <label for="password">Mật khẩu:</label>
+            <input type="text" id="password" name="password"  value="<%=userId[0].password%>" required>
+
+            <select id="role" name="role" required>
+                <option value="0">Người dùng</option>
+                <option value="1">Quản lý</option>
+            </select>
+
+            <label for="address">Địa chỉ:</label>
+            <textarea id="address" name="address" rows="4"  required><%=userId[0].address%></textarea>
+
+            <button class="btn-form" type="submit">Cập Nhật</button>
+        </div>
+    </form>
+    <form action="/user_del" method="POST">
+        <input type="hidden" name="id" value="<%=userId[0].id%>">
+        <button style="background-color: red; margin-right: 20px;" id="btnDelate" class="btn-form" >Xóa Sản Phẩm</button>
+    </form>
+</div>
+
+<footer>
+    <h3>Bản quyền © 2025-2030 <span> CatchyNT</span> Đã đăng ký Bản quyền.</h3>
+    <h4>Hai Lun</h4>
+</footer>
+
+<%- include('admin_footer.ejs')%>

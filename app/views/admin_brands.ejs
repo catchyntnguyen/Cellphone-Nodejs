@@ -1,0 +1,53 @@
+<%- include('admin_header.ejs')%>
+<div class="wrapper-body">
+    <h2>Bảng Nhãn Hàng</h2>
+    <div class="filter">
+        <div class="filter">
+            <a style="color: black;" href="/admin/add/brand" class="filter-item">Thêm Nhãn Hàng</a>
+            <div class="filter-item"  id="drop">Lọc <i class="fa-solid fa-caret-down"></i> </div>
+        </div>  
+        <div class="popup_list slide-left"  id="drop_list">
+            <ul>
+                <li><a href="">Mới Nhất</a></li>
+                <li><a href="">Cũ Nhất</a></li>
+                <li><a href="">DM nhiều SP</a></li>
+                <li><a href="">DM ít SP</a></li>
+            </ul>
+        </div>
+    </div>
+    <table class="table-category">
+        <thead>
+            <tr>
+                <th>ID Danh Mục</th>
+                <th>Hình</th>
+                <th>Tên Danh Mục</th>
+                <th>Số Lượng SP</th>
+                <th>SP Đã Bán</th>
+                <th class="note">Ghi Chú</th>
+                <th>Khác</th>
+            </tr>
+        </thead>
+        <tbody id="categories-table">   
+            <%getCategory.forEach(i => {%>
+                <tr>
+                    <td><%=i.id%></td>
+                    <td class="img-td"><img src="/img/<%=i.img%>" alt="">
+                    </td>
+                    <td><%=i.name%></td>
+                    <td><%= (getProductsAll.filter(e => e.brandId == i.id)).length %></td>
+                    <td>0</td>
+                    <td class="text-note"><%=i.description%></td>
+                    <td class="fix"><a href="/admin/detail/brand/<%=i.id%>">Xem Chi Tiết</a></td>
+                </tr>
+                
+             <%})%>
+        </tbody>
+    </table>
+</div>
+
+<footer>
+    <h3>Bản quyền © 2025-2030 <span> CatchyNT</span> Đã đăng ký Bản quyền.</h3>
+    <h4>Hai Lun</h4>
+</footer>
+
+<%- include('admin_footer.ejs')%>

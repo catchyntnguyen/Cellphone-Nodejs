@@ -1,0 +1,415 @@
+@media all and (max-width:1200px) {
+  .menu_header {
+    padding: 0;
+  }
+
+  .header_logo {
+    width: 170px;
+  }
+
+}
+
+@media all and (max-width: 1090px) {
+  .sale_header {
+    flex-direction: column;
+  }
+
+  .countdown ul {
+    display: flex;
+  }
+
+  .countdown li {
+    font-size: 0.6em;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .swiper-slide--last {
+    display: none !important;
+  }
+
+  .da-reponsive {
+    display: block !important;
+  }
+}
+
+@media (min-width:1200px) and (max-width:1370px) {
+  .menu_header {
+    padding: 0 50px;
+  }
+}
+
+/* countdown */
+@media all and (max-width: 768px) {
+  .countdown li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+
+  .countdown li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+
+@media (min-width:1px) and (max-width:1024px) {
+  .bannersmall {
+    display: none;
+  }
+}
+
+/* table */
+@media all and (max-width:769px) {
+
+  .menu_header,
+  footer {
+    padding: 0;
+  }
+
+  .header_logo,
+  .header_list,
+  .loca_HCM,
+  .header_phone,
+  .header_car,
+  .swiper-slide--nextlast,
+  .swiper-slide--last {
+    display: none !important;
+  }
+
+  .header_logo2 {
+    display: block !important;
+    position: relative;
+    right: 60px;
+  }
+
+  .banner,
+  .slider {
+    width: 500px !important;
+  }
+
+  .slide img {
+    width: 500px;
+  }
+
+  .navigation-manual {
+    display: none;
+  }
+
+  .navigation-auto {
+    display: none;
+  }
+
+  .img_sale {
+    width: 400px;
+  }
+
+  .banner_text img {
+    display: block;
+  }
+
+  .footer_1,
+  .footer_1-2,
+  .footer_1-3 {
+    display: none;
+  }
+
+  .footer_2 {
+    display: block;
+  }
+
+  .rectangle_text_products {
+    margin-bottom: 60px;
+  }
+}
+
+/* table end */
+@media (min-width:769px) and (max-width:910px) {
+
+  .banner,
+  .slider {
+    width: 500px !important;
+  }
+
+  .slide img {
+    width: 500px;
+  }
+
+  .navigation-manual {
+    display: none;
+  }
+
+  .navigation-auto {
+    display: none;
+  }
+
+  .img_sale {
+    width: 400px;
+  }
+
+  .banner_text img {
+    display: block;
+  }
+
+  .menu-banner--left {
+    justify-content: center;
+  }
+
+  .rectangle_text_products>div {
+    min-height: 100px;
+  }
+}
+
+@media all and (max-width:1028px) {
+  .header_logo {
+    display: none;
+  }
+
+  .header_logo2 {
+    display: block !important;
+    position: relative;
+  }
+
+  .swiper-slide--nextlast,
+  .swiper-slide--last {
+    display: none !important;
+  }
+
+  .img_sale {
+    width: 400px;
+  }
+
+  .menu-banner--left {
+    justify-content: center;
+  }
+}
+
+@media (min-width:425px) and (max-width:767px) {
+  .menu_header {
+    padding: 0;
+  }
+
+  .header_logo,
+  .header_list,
+  .loca_HCM,
+  .header_phone,
+  .header_car,
+  .swiper-slide--nextlast,
+  .swiper-slide--last {
+    display: none !important;
+  }
+
+  .header_logo2 {
+    display: block !important;
+    position: relative;
+    right: 60px;
+  }
+
+  .banner,
+  .slider {
+    width: 500px !important;
+  }
+
+  .slide img {
+    width: 500px;
+  }
+
+  .navigation-manual {
+    display: none;
+  }
+
+  .navigation-auto {
+    display: none;
+  }
+
+  .img_sale {
+    width: 400px;
+  }
+
+  .banner_text img {
+    display: block;
+  }
+}
+
+/* mobile  */
+@media (min-width:320px) and (max-width:742px) {
+  .swiper-slide--nextnextlast,
+  .sale_body,
+  .accessory,
+  .nav_product,
+  .block_none,
+  .square_product_main {
+    display: none !important;
+  }
+
+  .products_sale {
+    display: none;
+  }
+
+  .show_products--header>div {
+    width: 480px;
+  }
+
+  .menu-banner--left {
+    min-width: 100px;
+  }
+
+  .footer_2>div {
+    margin: 5px 10px;
+  }
+
+  .rectangle_products>div {
+    height: 95px;
+  }
+
+  .text {
+    font-size: 0.8em;
+  }
+
+  .menu-banner {
+    display: none;
+  }
+
+  .product {
+    width: 180px;
+    height: 390px;
+  }
+
+  .show_products--body>div {}
+
+  .swiper-slide {
+    width: 187px !important;
+  }
+
+  .imgproduct img {
+    margin-left: 0;
+  }
+
+  .header_logo2 {
+    right: 20px;
+  }
+
+  .input_header {
+    width: 51%;
+  }
+}
+
+/* reponsive details */
+
+.in4--ct {
+  grid-row: 1/2;
+  grid-column: 3/4;
+  border: 1px solid gray;
+}
+
+.in4--district {
+  grid-row: 1/2;
+  grid-column: 4/5;
+  border: 1px solid gray;
+}
+
+.in4--SL {
+  grid-row: 2/3;
+  grid-column: 3/5;
+}
+
+.in4--contact {
+  grid-row: 3/8;
+  grid-column: 3/5;
+  border: 1px solid gray;
+  overflow-y: auto;
+}
+
+@media all and (max-width:1368px) {
+
+  .in4--ct,
+  .in4--district,
+  .in4--SL,
+  .in4--contact {
+    display: none !important;
+  }
+
+}
+
+@media all and (max-width:1024px) {
+  .info_product {
+    width: 50% !important;
+  }
+}
+
+@media all and (max-width:856px) {
+  .info_detail {
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows:
+      1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:
+      150px 180px 180px 180px !important;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+}
+
+@media all and (max-width:426px) {
+  .detail_content {
+    flex-direction: column !important;
+  }
+
+  .in4--product {
+    display: none !important;
+  }
+
+  .info_detail {
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows:
+      1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:
+      1fr 1fr 1fr 1fr !important;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+  .info_product {
+    width: 100% !important;
+  }
+
+  .prica_product {
+    width: 100% !important;
+    height: 100%;
+    margin-left: 10px;
+    margin-bottom: 70px;
+  }
+
+  .in4--product {
+    display: grid !important;
+    grid-row: 1/10;
+    grid-column: 1/5 !important;
+  }
+
+  .detail_content {
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .display_none{
+    display: none !important;
+  }
+  .display_block{
+    display:flex !important;
+  }
+  
+}
+/* reponsive login */
+@media all and (max-width:426px){
+  main {
+    margin: auto;
+    width: 100% !important;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main input{
+    margin: 0 5px;
+  }
+}

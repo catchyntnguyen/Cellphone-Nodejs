@@ -1,0 +1,26 @@
+<%- include('admin_header.ejs')%>
+<div class="wrapper-body">
+    <h2>Danh mục - Thêm</h2>
+    <form action="/brand_add" id="addForm" method="POST" enctype="multipart/form-data">
+        <div class="form-left">
+            <label for="categoryName">Tên Danh mục:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="image">Hình Sản Phẩm:</label>
+            <input type="file" id="image" name="image" > 
+        </div>
+
+        <div class="form-right">    
+            <label for="description">Mô Tả:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+            <button class="btn-form" type="submit">Cập Nhật Danh Mục</button>
+        </div>
+    </form>
+</div>
+
+<footer>
+    <h3>Bản quyền © 2025-2030 <span> CatchyNT</span> Đã đăng ký Bản quyền.</h3>
+    <h4>Hai Lun</h4>
+</footer>
+
+<%- include('admin_footer.ejs')%>

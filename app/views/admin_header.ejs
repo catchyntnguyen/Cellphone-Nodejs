@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="/css/admin.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- chart  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <aside class="main-sidebar">
+            <!-- brand logo -->
+            <div class="brand-logo--main">
+                <div class="brand-logo"></div>
+                <div class="brand-name">
+                    <h3>Name Brand</h3>
+                </div>
+            </div>
+            <div class="sidebar-content">
+                <!-- admin user -->
+                <div class="admin-logo--main">
+                    <div class="admin-logo"></div>
+                    <div class="admin-name">
+                        <h4>Nguyễn Trần Khắc Duy</h4>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="nav-item--single ">
+                        <div class="item-icon"><i class="fa-solid fa-house"></i></div>  
+                        <div class="item-text">
+                            <a style="color:#c2c7d0;" href="/admin/home" class="item-name--single">Trang chủ</a>
+                        </div>
+                        <div class="item-arow--single"><i class="fas fa-chevron-left"></i></div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="nav-item--single ">
+                        <div class="item-icon"><i class="fas fa-clipboard-list"></i></div>  
+                        <div class="item-text">
+                            <a style="color:#c2c7d0;" href="/admin/categories" class="item-name--single">Danh mục</a>
+                        </div>
+                        <div class="item-arow--single"><i class="fas fa-chevron-left"></i></div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="nav-item--single ">
+                        <div class="item-icon"><i class="fa-solid fa-mobile"></i></div>  
+                        <div class="item-text">
+                            <a style="color:#c2c7d0;" href="/admin/brands" class="item-name--single">Nhãn hàng</a>
+                        </div>
+                        <div class="item-arow--single"><i class="fas fa-chevron-left"></i></div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="nav-item nav-item--animation">
+                        <div class="item-icon"><i class="fab fa-product-hunt"></i></div>
+                        <div class="item-text">Sản phẩm</div>
+                        <div class="item-arow"><i class="fas fa-chevron-left"></i></div>
+                    </div>
+                    <ul class="list-item" id="listProductsCg">
+                        <% brands.forEach((i,index) => { %>
+                            <li><a href="/admin/products/<%=i.id%>"><%= i.name %></a></li>
+                        <% }) %>
+                    </ul>
+                </div>
+                <div class="">
+                    <div class="nav-item--single ">
+                        <div class="item-icon"><i class="fas fa-shopping-cart"></i></div>
+                        <div class="item-text">
+                            <a style="color:#c2c7d0;" href="/admin/orders" class="item-name--single">Đơn hàng</a>
+                        </div>
+                        <div class="item-arow--single"><i class="fas fa-chevron-left"></i></div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="nav-item--single ">
+                        <div class="item-icon"><i class="fa-solid fa-user"></i></div>
+                        <div class="item-text">
+                            <a style="color:#c2c7d0;" href="/admin/users" class="item-name--single">Người dùng</a>
+                        </div>
+                        <div class="item-arow--single"><i class="fas fa-chevron-left"></i></div>
+                    </div>
+                </div>
+                <!-- <div class="">
+                    <div class="nav-item--single ">
+                        <div class="item-icon"><i class="fa-solid fa-comment"></i></div>
+
+                        <div class="item-name--single">Bình Luận</div>
+                        <div class="item-arow--single"><i class="fas fa-chevron-left"></i></div>
+                    </div>
+                </div> -->
+            </div>
+            <div id="btn_logout" class="nav-item--bottom">
+                <div class="item-name">Đăng xuất</div>
+                <div class="item-out"><i class="fa-solid fa-arrow-right-from-bracket"></i></div>
+            </div>
+        </aside>
+        <nav class="main-header">
+            <ul class="nav-left">
+                <li>
+                    <i class="fas fa-bars"></i>
+                </li>
+                <li>
+                    <a href="">Trang chủ</a>
+                </li>
+                <li>
+                    <a href="">Liên hệ</a>
+                </li>
+            </ul>
+            <ul class="nav-right">
+                <li>
+                    <i class="fas fa-search"></i>
+                </li>
+                <li>
+                    <i class="fas fa-comments"></i>
+                </li>
+                <li>
+                    <i class="fas fa-bell"></i>
+                </li>
+                <li>
+                    <i class="fas fa-border-all"></i>
+                </li>
+            </ul>
+        </nav>
+        <div class="content-wrapper" id="content_wrapper">
+ 

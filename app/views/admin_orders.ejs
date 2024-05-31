@@ -1,0 +1,50 @@
+<%- include('admin_header.ejs')%>
+<div class="wrapper-body">
+    <h2>Bảng Đơn Hàng</h2>
+    <div class="filter">
+        <div class="filter-item">Lọc <i class="fa-solid fa-caret-down"></i> </div>
+    </div>
+    <table class="table-category">
+        <thead>
+            <tr>
+                <th>ID Đơn Hàng</th>
+                <th>Tên Người Đặt</th>
+                <th>Tên Người Nhận</th>
+                <th>Số Điện Thoại</th>
+                <th>Ngày Đặt</th>
+                <th>Trạng Thái</th>
+                <th>Khác</th>
+            </tr>
+        </thead>
+        <tbody id="order_table">   
+            <%getOrders.forEach(i => {%>
+                <tr>
+                    <td><%=i.id%></td>
+                    <td><%=getUser.find(e => e.id == i.idUserBuy).name%></td>  
+                    <td><%=i.receiverName%></td>
+                    <td><%=i.receiverPhone%></td>
+                    <td><%=i.createdAt%></td>
+                    <% if (i.status === 0) { %>
+                        <td>Đang chờ</td>
+                    <% } else if (i.status === 1) { %>
+                        <td>Đóng gói</td>
+                    <% } else if (i.status === 2) { %>
+                        <td>Đang giao</td>
+                    <% } else if (i.status === 3) { %>
+                        <td>Đã giao</td>
+                    <% } else if (i.status === 4) { %>
+                        <td>Hủy đơn</td>
+                    <% } %>
+                    <td class="fix"><a href="/admin/detail/order/<%=i.id%>">Xem Chi Tiết</a></td>
+                </tr>
+            <%})%>
+        </tbody>
+    </table>
+</div>
+
+<footer>
+    <h3>Bản quyền © 2025-2030 <span> CatchyNT</span> Đã đăng ký Bản quyền.</h3>
+    <h4>Hai Lun</h4>
+</footer>
+
+<%- include('admin_footer.ejs')%>

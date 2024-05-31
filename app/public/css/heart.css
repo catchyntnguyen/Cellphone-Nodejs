@@ -1,0 +1,39 @@
+.box {
+    z-index: 10;
+    width: 10px;
+    position: absolute;
+    top: 95%;
+    left:87.7%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heart {
+    display: none;
+    position: relative;
+    margin: auto;
+    height: 20px;
+    width: 15px;
+    animation: heart 1s infinite;
+  }
+  .emoj_product:hover .heart{
+    display: block;
+  }
+    @keyframes heart {
+        0% {
+        transform: scale(1);
+        }
+
+        30% {
+        transform: scale(1);
+        }
+
+        60% {
+        transform: scale(1.2);
+        }
+
+        100% {
+        transform: scale(1);
+        }
+    }

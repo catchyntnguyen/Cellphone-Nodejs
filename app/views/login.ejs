@@ -1,0 +1,45 @@
+<%- include('header.ejs')%>
+    <main class="main_login">
+        <div class="login_img">
+            <img src="https://account.cellphones.com.vn/_nuxt/img/Shipper_CPS3.77d4065.png" alt="">
+        </div>
+        <div class="login_title">
+            <b>Đăng nhập tài khoản Smember</b>
+        </div>
+        <form action="/handlerLogin" method="POST" id="frm" name="frm">
+            <div class="" style="text-align: center;"></div>
+            <div class="login_input">
+                <input type="text" name="email" id="email" required>
+
+                <label for="email">Vui lòng nhập số điện thoại/Email</label>
+            </div>
+            <div class="login_input">
+                <input type="password" name="password" id="password" required>
+                <label for="password">Vui lòng nhập mật khẩu</label>
+            </div>
+            <div class="pwrw">
+                <a href="">Quên mật khẩu ?</a>
+            </div>
+            <button class="btn_login" type="submit">
+                Đăng nhập
+            </button>
+        </form>
+        <div class="or">
+            <div><b>Hoặc</b></div>
+            <hr>
+        </div>
+        <div class="login_with">
+            <img src="https://account.cellphones.com.vn/_nuxt/img/image45.93ceca6.png" alt="">
+            <p>Đăng nhập bằng Google</p>
+
+        </div>
+        <div class="login_with">
+            <img src="	https://account.cellphones.com.vn/_nuxt/img/Logo-Zalo-Arc.a36365b.png" alt="">
+            <p>Đăng nhập bằng Zalo</p>
+        </div>
+        <div class="signup">
+            <p>Bạn chưa có tài khoản ? <a href="/register">Đăng ký ngay</a></p>
+        </div>
+        <div class="give"><a href=""><b>Xem chính sách ưu đãi Smember</b></a></div>
+    </main>
+<%- include('footer.ejs')%>

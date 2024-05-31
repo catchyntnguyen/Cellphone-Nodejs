@@ -1,0 +1,58 @@
+<%- include('admin_header.ejs')%>
+<div class="wrapper-body">
+    <h2>Chi tiết - chỉnh sửa - sản phẩm</h2>
+    <form action="/product_update" id="updateForm" method="POST" enctype="multipart/form-data">
+        <div class="form-left">
+            <!-- input ẩn -->
+            <input type="hidden" name="id" value="<%=detail[0].id%>">
+            <!-- input ẩn -->
+            <label for="name">Tên Sản Phẩm:</label>
+            <input type="text" id="name" name="name" value="<%=detail[0].name%>" required>
+
+            <label for="category">Danh Mục Sản Phẩm:</label>
+            <select id="category" name="category" required>
+                <%for(let i of categories){%>
+                    <option value="<%=i.id%>"><%=i.name%></option>
+                    <%}%>
+            </select>
+
+            <label for="brand">Nhãn hàng Sản Phẩm:</label>
+            <select id="brand" name="brand" required>
+                <%for(let i of brands){%>
+                    <option value="<%=i.id%>"><%=i.name%></option>
+                    <%}%>
+            </select>
+
+            <label for="quantity">Số Lượng Sản Phẩm:</label>
+            <input type="number" id="quantity" name="quantity" value="<%=detail[0].quantity%>" required>
+
+            <label for="image">Hình Sản Phẩm:</label>
+            <input type="file" id="image" name="image" >
+        </div>
+
+        <div class="form-right">
+            <label for="originalPrice">Giá Hiện Tại:</label>
+            <input type="number" id="originalPrice" name="originalPrice"  value="<%=detail[0].priceOld%>" required>
+
+            <label for="discountPrice">Giá Cũ:</label>
+            <input type="number" id="discountPrice" name="discountPrice" value="<%=detail[0].priceNew%>" required>
+
+            <label for="description">Mô Tả:</label>
+            <textarea id="description" name="description" rows="4"  required><%=detail[0].description%></textarea>
+
+            <button class="btn-form" type="submit">Cập Nhật</button>
+        </div>
+    </form>
+    <form action="/product_del" method="POST">
+        <input type="hidden" name="id" value="<%=detail[0].id%>">
+        <input type="hidden" name="brand" value="<%=detail[0].brandId%>">
+        <button style="background-color: red; margin-right: 20px;" id="btnDelate" class="btn-form" >Xóa Sản Phẩm</button>
+    </form>
+</div>
+
+<footer>
+    <h3>Bản quyền © 2025-2030 <span> CatchyNT</span> Đã đăng ký Bản quyền.</h3>
+    <h4>Hai Lun</h4>
+</footer>
+
+<%- include('admin_footer.ejs')%>

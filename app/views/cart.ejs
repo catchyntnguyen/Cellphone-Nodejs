@@ -1,0 +1,121 @@
+<%- include('header.ejs')%>
+  <div class="chose_login" id="chose">
+    <div>
+      <div class="chose_login--header ">
+        <div><img src="https://cdn2.cellphones.com.vn/213x213,webp,q100/media/wysiwyg/Shipper_CPS.jpg" alt="">
+        </div>
+        <div class="Smember"><b>Smember</b></div>
+        <i class="fa-solid fa-x" onclick="chosecancel()"></i>
+      </div>
+      <div class="chose_login--text">
+        <p>Vui lòng đăng nhập tài khoản Smember để có trải nghiệm mua sắm tốt hơn</p>
+      </div>
+      <div class="chose_login--btn">
+        <div class="login"><a href="/login"><b>Đăng nhập ngay</b></a></div>
+        <div class="signup1"><a href="/register"><b>Đăng ký</b></a></div>
+      </div>
+    </div>
+  </div>
+  <main class="basket">
+    <section class="yesbuy" style="display:<%=display1%>; ">
+      <div class="backmenu">
+        <div style="margin-left: 50px;">
+          Giỏ hàng
+        </div>
+        <div class="trove">
+          <i class="fa-solid fa-chevron-left"></i>
+          <a href="/">Trở về</a>
+        </div>
+      </div>
+      <div class="nobuy" id="nobuy">
+        <div class="icon_boring"> <i class="fa-solid fa-face-frown"></i></div>
+        <div class="isgpd">Không có sản phẩn nào tron giỏ hàng, vui lòng quay lại</div>
+        <div class="btn_isgpd"><a style="color: white;" href="/">Quay lại trang chủ</a></div>
+      </div>
+    </section>
+    <div id="showcart" style="display: <%= display2 %>;">
+      <% let tt=0; %>
+        <% for (let product of dataCart) { %>
+          <% tt +=Number(product.priceNew*product.soluong); %>
+            <div class="dacosp">
+              <div class="product_basket">
+                <div>
+                  <div class="img_product">
+                    <img src="/assets/img-products/<%= product.img %>" alt="Product Image">
+                  </div>
+                  <div class="img_info">
+                    <div class="title_productbasket">
+                      <div><b>
+                          <%= product.name%>
+                        </b></div>
+                      <form action="/delete-to-cart/phone" method="POST">
+                        <input type="hidden" name="productId" value="<%=product.id %>">
+                        <a href="/delete/<%= product.id%>" id="xoaProduct"
+                          style="cursor: pointer; color: rgb(78, 78, 78);" class="fa-solid fa-trash"></a>
+                      </form>
+                    </div>
+                    <div class="price_productbasket">
+                      <div style="color: red;" id="priceNew">
+                        <%= product.priceNew.toLocaleString() %>đ
+                      </div>
+                      <div style="text-decoration: line-through;" id="priceOld">
+                        <%= product.priceOld.toLocaleString() %>đ
+                      </div>
+                      <div style="text-decoration: line-through; color: rgba(138, 138, 138, 0.534);"></div>
+                    </div>
+                    <div class="title_productbasket">
+                      <label>Số lượng:</labeld>
+                        <div class="btnUPDown">
+                          <div class="up">
+                            <a href="/handlerQCart/<%= product.id %>/up"><i class="fa-solid fa-chevron-up"></i></a>
+                          </div>
+                          <input type="text" value="<%=product.soluong%>" id="updateQuantity">
+                          <div class="down">
+                            <a href="/handlerQCart/<%= product.id %>/down"><i class="fa-solid fa-chevron-down"></i></a>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <% } %>
+    </div>
+    <div style="display: <%=display2%>;" class="btn_productbasket" id="nutthanhtoan">
+      <div class="btn_productbasket--first">
+        <div><b>Tổng tiến tạm tính</b></div>
+        <div class="btn_productbasket--firstprice" id="thanhtien">
+          <%=tt.toLocaleString()%>đ
+        </div>
+      </div>
+      <div id="xacnhan" class="btn_productbasket--secondaly">TIẾN HÀNG ĐẶT HÀNG</div>
+      <div class="btn_productbasket--final">CHỌN THÊM SẢN PHẢM KHÁC</div>
+    </div>
+    <div class="popupPay slide-top">
+      <form id="shippingForm" action="/checkOut" method="POST">
+        <input type="hidden" name="total" value="<%=tt%>">     
+        <div class="form-group">
+          <label for="receiverName">Tên người nhận</label>
+          <input type="text" name="receiverName" id="receiverName">
+        </div>
+
+        <div class="form-group">
+          <label for="receiverEmail">Email người nhận</label>
+          <input type="text"  name="receiverEmail" id="receiverEmail">
+        </div>
+
+        <div class="form-group">
+          <label for="receiverPhone">Số điện thoại người nhận</label>
+          <input type="text" name="receiverPhone" id="receiverPhone">
+        </div>
+
+        <div class="form-group">
+          <label for="receiverAddress">Địa chỉ người nhận</label>
+          <textarea name="receiverAddress" id="receiverAddress"></textarea>
+        </div>
+
+        <button type="submit"> Xác nhận</button>
+      </form>
+    </div>
+  </main>
+  <%- include('footer.ejs')%>

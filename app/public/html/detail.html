@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- fontawesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- Main css -->
+<link rel="stylesheet" href="../css/style.css">
+<!-- reponsive css -->
+<link rel="stylesheet" href="../css/reponsive.css">
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<!-- heart -->
+<link rel="stylesheet" href="../css/heart.css">
+<!-- details css -->
+<link rel="stylesheet" href="../css/detail.css">
+
+<body>
+    <section class="header">
+        <div class="menu_header">
+            <a class="header_logoimg" href="/index.html"><img class="header_logo"
+                    src="../img/logocell-removebg-preview.png" alt="">
+            </a>
+            <a class="header_logoimg2" href="/index.html"><img style="width: 60px; display: none;" class="header_logo2"
+                    src="../img/logo2.png" alt="">
+            </a>
+            <div class="header_list">
+                <i class="fa-regular fa-rectangle-list"></i>
+                <a href="#">Danh mục</a>
+            </div>
+            <div class="loca_HCM">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <a href=""> Xem giá tại </a><i class="fa-solid fa-chevron-down"></i><br>
+                    <a href="">Hồ Chí Minh</a>
+                </div>
+            </div>
+            <label class="input_header" for=""><i class="fa-solid fa-magnifying-glass"></i><input type="text1"
+                    placeholder="Bạn cần gì ?"></label>
+            <div class="header_phone">
+                <i class="fa-solid fa-phone"></i>
+                <a class="header_3cham " href="">Gọi mua hàng
+                    1800.2097</a>
+            </div>
+            <div class="header_car">
+                <i class="fa-solid fa-truck-fast"></i>
+                <a class="header_3cham " href="">Tra cứu
+                    đơn hàng</a>
+            </div>
+            <div class="header_bag">
+                <div style="text-align: center;" class="slgiohang"> <i class="fa-solid fa-bag-shopping"></i>
+                    <b id="sosp">0</b>
+                </div>
+                <a href="../html/basket.html">Giỏ
+                    hàng</a>
+            </div>
+            <div class="header_user" onclick="dangnhap()">
+                <i class="fa-solid fa-user"></i>
+                Đăng Nhập
+            </div>
+        </div>
+    </section>
+    <div class="chose_login" id="chose">
+        <div>
+            <div class="chose_login--header ">
+                <div><img src="https://cdn2.cellphones.com.vn/213x213,webp,q100/media/wysiwyg/Shipper_CPS.jpg" alt="">
+                </div>
+                <div class="Smember"><b>Smember</b></div>
+                <i class="fa-solid fa-x" onclick="chosecancel()"></i>
+            </div>
+            <div class="chose_login--text">
+                <p>Vui lòng đăng nhập tài khoản Smember để có trải nghiệm mua sắm tốt hơn</p>
+            </div>
+            <div class="chose_login--btn">
+                <div class="login"><a href="../html/login.html"><b>Đăng nhập ngay</b></a></div>
+                <div class="signup1"><a href="../html/signup.html"><b>Đăng ký</b></a></div>
+            </div>
+        </div>
+    </div>
+    <main class="detail">
+        <div class="detail_main">
+            <div class="detail_header">
+                <h1>iPhone 14 Pro Max 128GB | Chính hãng VN/A
+                </h1>
+                <div style class="icon_star"><i class="fa-solid fa-star" style="color: #ffea00;"></i><i
+                        class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star"
+                        style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i
+                        class="fa-solid fa-star" style="color: #ffea00;"></i>
+                    <span></span>Đánh giá
+                </div>
+            </div>
+            <hr>
+            <div class="detail_content">
+                <section class="info_product">
+                    <div class="img_detail">
+                        <div class="img_detail--big">
+                            <div class="sline">
+                                <img id="hinh"
+                                    src="https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/t/_/t_m_18.png"
+                                    alt="">
+                            </div>
+                            <div class="btn_sline">
+                                <div onclick="lefttline()" class="itembtnleft"><i class="fa-solid fa-chevron-left"></i>
+                                </div>
+                                <div onclick="righttline()" class="itembtnright"><i
+                                        class="fa-solid fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="scroll-container">
+                            <div class="scroll-content">
+                                <div><img id="hinh1" onclick="ligsmall(this)"
+                                        src="https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/t/_/t_m_18.png"
+                                        alt=""></div>
+                                <div><img id="hinh1" onclick="ligsmall(this)"
+                                        src="https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/b/_/b_c_1_9.png"
+                                        alt=""></div>
+                                <div><img id="hinh1" onclick="ligsmall(this)"
+                                        src="https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/x/_/x_m_24.png"
+                                        alt=""></div>
+                                <div><img id="hinh1" onclick="ligsmall(this)"
+                                        src="https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/5/2522.png"
+                                        alt=""></div>
+                                <div><img id="hinh1" onclick="ligsmall(this)"
+                                        src="https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/8/9/896_2.png"
+                                        alt=""></div>
+                                <div><img id="hinh1" onclick="ligsmall(this)"
+                                        src="https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/5/25.9_2.png"
+                                        alt=""></div>
+                                <div><img id="hinh1" onclick="ligsmall(this)"
+                                        src="https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/5/25.10_2.png"
+                                        alt=""></div>
+                                <div><img id="hinh1" onclick="ligsmall(this)"
+                                        src="https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/5/25.4_3.png"
+                                        alt=""></div>
+                                <div><img id="hinh1" onclick="ligsmall(this)"
+                                        src="https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/6/26.3_2.png"
+                                        alt=""></div>
+                                <div><img id="hinh1" onclick="ligsmall(this)"
+                                        src="https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/5/25.2_5.png"
+                                        alt=""></div>
+
+                            </div>
+                        </div>
+                        <div class="img_detail--banner">
+                            <img src="https://cdn2.cellphones.com.vn/800x150,webp,q100/https://dashboard.cellphones.com.vn/storage/special-mobile-thucukgioihan.png"
+                                alt="">
+                        </div>
+                        <div class="info_detail">
+                            <div class="in4--product">
+                                <p style="margin:10px;">Thông tin sản phẩm</p>
+                                <div>
+                                    <div><img style="width: 15px;"
+                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAyCAYAAADWU2JnAAAABHNCSVQICAgIfAhkiAAAAWRJREFUWEftmcFNw0AQRf+sG6ADoAJCBUAHlJDL7hW7ApIOcrS8PpgKKAHTQaiAlOBcfdhBIxHJRgFpbWT7MHuLtM78efu0hx0CAOfcM4A1gCv5PdVi5oaIamNMluf5gZxzGwASZrbFzHvv/a2E+ZyayLmuQwgPEoZnQ9IvnC0pzHbRYbIQwn6qYzPG7ADcfNfrkxGJyrKspwpjra2J6E7D/CSuZH5zUMkomdj7SZ1RZ9SZWALqTCwxvWfUGXUmloA6E0tM7xl1Rp2JJaDOxBL7855h5hTAZC9XAHZEtDr7WBTb2T/vX/YDY2yzL23bplVVNc65RwCvsX/Q2T+KzLEoiotucWutOPA0MNDwMMz87r2/7xYeOYcYHkZCGGOuZRpyCmStfSOiXsAISluy1h6I6DLio+5WCbIJITTGGBkRiTeD1mmQMfuIB8BHURQrkjbkrJl5PYLQIBoAjsxcJ0mSynF/AXY82KKEipF6AAAAAElFTkSuQmCC"
+                                            alt=""></div>
+                                    <div>Máy mới 100% , chính hãng Apple Việt Nam.
+                                        CellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt
+                                        Nam</div>
+                                </div>
+                                <div>
+                                    <div><img style="width: 20px;"
+                                            src="data:image/png;base64,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"
+                                            alt=""></div>
+                                    <div>Hộp, Sách hướng dẫn, Cây lấy sim, Cáp Lightning - Type C</div>
+                                </div>
+                                <div>
+                                    <div><img style="width: 20px;"
+                                            src="data:image/png;base64,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"
+                                            alt=""></div>
+                                    <div>1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại
+                                        trung tâm bảo hành chính hãng Apple : Điện Thoại Vui ASP (Apple Authorized
+                                        Service Provider)</div>
+                                </div>
+                                <div>
+                                    <div style="margin: 0 0 0 5px ;"><img style="width: 50px;" src="../img/vat.png"
+                                            alt=""></div>
+                                    <div>Giá sản phẩm đã bao gồm VAT</div>
+                                </div>
+
+                            </div>
+                            <div style="display: flex;justify-content: center;align-items: center;" class="in4--ct">Hồ
+                                Chí Minh</div>
+                            <div style="display: flex;justify-content: center;align-items: center;"
+                                class="in4--district">Quận 12 <i style="margin-left: 20px;"
+                                    class="fa-solid fa-chevron-down"></i></div>
+                            <div class="in4--SL">Số sản phẩm <span></span></div>
+                            <div class="in4--contact">
+                                <div class="detail_product--location">
+                                    <div class="location--phone">
+                                        <div class="phone--phone">
+                                            <i class="fa-sharp fa-solid fa-phone"></i><span>02871000112</span>
+                                        </div>
+                                        <div class="location--location">
+                                            <i class="fa-sharp fa-solid fa-location-dot"></i><span>5 Nguyễn Kiệm, P. 3,
+                                                Q. Gò Vấp</span>
+                                        </div>
+                                    </div>
+                                    <div class="location--phone">
+                                        <div class="phone--phone">
+                                            <i class="fa-sharp fa-solid fa-phone"></i><span>02871000112</span>
+                                        </div>
+                                        <div class="location--location">
+                                            <i class="fa-sharp fa-solid fa-location-dot"></i><span>157-159 Nguyễn Thị
+                                                Minh Khai, P. Phạm Ngũ Lão, Q. 1</span>
+                                        </div>
+                                    </div>
+                                    <div class="location--phone">
+                                        <div class="phone--phone">
+                                            <i class="fa-sharp fa-solid fa-phone"></i><span>02871000112</span>
+                                        </div>
+                                        <div class="location--location">
+                                            <i class="fa-sharp fa-solid fa-location-dot"></i><span>55B Trần Quang Khải,
+                                                P. Tân Định, Q. 1</span>
+                                        </div>
+                                    </div>
+                                    <div class="location--phone">
+                                        <div class="phone--phone">
+                                            <i class="fa-sharp fa-solid fa-phone"></i><span>02871000112</span>
+                                        </div>
+                                        <div class="location--location">
+                                            <i class="fa-sharp fa-solid fa-location-dot"></i><span>218-220 Trần Quang
+                                                Khải, Phường Tân Định, Quận 1</span>
+                                        </div>
+                                    </div>
+                                    <div class="location--phone">
+                                        <div class="phone--phone">
+                                            <i class="fa-sharp fa-solid fa-phone"></i><span>02871000112</span>
+                                        </div>
+                                        <div class="location--location">
+                                            <i class="fa-sharp fa-solid fa-location-dot"></i><span>190 Nguyễn Thị Định,
+                                                khu phố 2, phường An Phú, quận 2</span>
+                                        </div>
+                                    </div>
+                                    <div class="location--phone">
+                                        <div class="phone--phone">
+                                            <i class="fa-sharp fa-solid fa-phone"></i><span>02871000112</span>
+                                        </div>
+                                        <div class="location--location">
+                                            <i class="fa-sharp fa-solid fa-location-dot"></i><span>139 Trần Não, Ấp Bình
+                                                Khánh 3, Phường Bình An, Quận 2</span>
+                                        </div>
+                                    </div>
+                                    <div class="location--phone">
+                                        <div class="phone--phone">
+                                            <i class="fa-sharp fa-solid fa-phone"></i><span>02871000112</span>
+                                        </div>
+                                        <div class="location--location">
+                                            <i class="fa-sharp fa-solid fa-location-dot"></i><span>536 Xô Viết Nghệ
+                                                Tĩnh, P. 25, Q. Bình Thạnh</span>
+                                        </div>
+                                    </div>
+                                    <div class="location--phone">
+                                        <div class="phone--phone">
+                                            <i class="fa-sharp fa-solid fa-phone"></i><span>02871000112</span>
+                                        </div>
+                                        <div class="location--location">
+                                            <i class="fa-sharp fa-solid fa-location-dot"></i><span>1075B Hậu Giang, P.
+                                                11, Q. 6</span>
+                                        </div>
+                                    </div>
+                                    <div class="location--phone">
+                                        <div class="phone--phone">
+                                            <i class="fa-sharp fa-solid fa-phone"></i><span>02871000112</span>
+                                        </div>
+                                        <div class="location--location">
+                                            <i class="fa-sharp fa-solid fa-location-dot"></i><span>458 - 460 Hậu Giang,
+                                                phường 12, Quận 6</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="prica_product">
+                    <div class="price_detail">
+                        <div class="price_detail--1">
+                            <div>
+                                <span>1TB</span>41.790.000 đ
+                            </div>
+                            <div>
+                                <span>512GB</span>35.990.000 đ
+                            </div>
+                            <div class="display_none">
+                                <span>256GB</span>29.690.000 đ
+                            </div>
+
+                        </div>
+                        <div class="price_detail--1">
+                            <div>
+                                <span>128GB</span>26.650.000 đ
+                            </div>
+                            <div class="display_block">
+                                <span>256GB</span>29.690.000 đ
+                            </div>
+                        </div>
+                    </div>
+                    <p style="margin-left: 10px;">Chọn màu để xem giá và chi nhánh có hàng</p>
+                    <div class="color_detail price_detail">
+                        <div class="color_detail--1 price_detail--1">
+                            <div style="display: flex; flex-direction: row; align-items: center;">
+                                <div class="imgprice"><img
+                                        src="https://cdn2.cellphones.com.vn/50x50,webp,q100/media/catalog/product/v/_/v_ng_18_1.png"
+                                        alt=""></div>
+                                <div style="display: flex; flex-direction: column;" class="colorprice">
+                                    <div>Vàng</div>
+                                    <div>26.790.000 đ</div>
+                                </div>
+                            </div>
+                            <div style="display: flex; flex-direction: row; align-items: center;">
+                                <div class="imgprice"><img
+                                        src="https://cdn2.cellphones.com.vn/50x50,webp,q100/media/catalog/product/x/_/x_m_25.png"
+                                        alt=""></div>
+                                <div style="display: flex; flex-direction: column;" class="colorprice">
+                                    <div>Đen</div>
+                                    <div>26.650.000 đ</div>
+                                </div>
+                            </div>
+                            <div class="display_none" style="display: flex; flex-direction: row; align-items: center;">
+                                <div class="imgprice"><img
+                                        src="https://cdn2.cellphones.com.vn/50x50,webp,q100/media/catalog/product/b/_/b_c_1_10.png"
+                                        alt=""></div>
+                                <div style="display: flex; flex-direction: column;" class="colorprice">
+                                    <div>Vàng</div>
+                                    <div>26.990.000 đ</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="color_detail--1 price_detail--1">
+                            <div style="display: flex; flex-direction: row; align-items: center;">
+                                <div class="imgprice"><img
+                                        src="https://cdn2.cellphones.com.vn/50x50,webp,q100/media/catalog/product/t/_/t_m_19.png"
+                                        alt=""></div>
+                                <div style="display: flex; flex-direction: column;" class="colorprice">
+                                    <div>Vàng</div>
+                                    <div>26.890.000 đ</div>
+                                </div>
+                            </div>
+                            <div class="display_block" style="display: flex; flex-direction: row; align-items: center;">
+                                <div class="imgprice"><img
+                                        src="https://cdn2.cellphones.com.vn/50x50,webp,q100/media/catalog/product/b/_/b_c_1_10.png"
+                                        alt=""></div>
+                                <div style="display: flex; flex-direction: column;" class="colorprice">
+                                    <div>Vàng</div>
+                                    <div>26.990.000 đ</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buy_product">
+                        <div onclick="bang1()">
+                            <div style="display: flex; flex-direction: row; align-items: center;">
+                                <div class="imgprice"><img
+                                        src="https://cdn2.cellphones.com.vn/x35,webp/media/icon/pdp-trade-icon.png"
+                                        alt=""></div>
+                                <div style="display: flex; flex-direction: column;" class="colorprice">
+                                    <div>
+                                        24.650.000đ</div>
+                                    <div>Khi thu cũ lên đời</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div onclick="bang2()">
+                            <div style="display: flex; flex-direction: row; align-items: center;">
+                                <!-- <div class="imgprice"><img
+                                        src="https://cdn2.cellphones.com.vn/50x50,webp,q100/media/catalog/product/t/_/t_m_19.png"
+                                        alt=""></div> -->
+                                <div style="display: flex; flex-direction: column; text-align: center;"
+                                    class="colorprice">
+                                    <div>26.650.000 đ</div>
+                                    <div style="text-decoration: line-through">26.890.000 đ</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="board1" style="margin-left:5px ;" class="board1">
+                        <li>Tặng thêm 30%, tối đa 2.000.000đ khi thu cũ lên đời</li>
+                        <li>Tặng thêm 5%, tối đa 500.000đ cho thành viên Smember</li>
+                        <li>Giá ở trên chưa bao gồm giá thu máy cũ</li>
+                        <div class="btn_board1"><b>Lên đời ngay</b></div>
+                    </div>
+                    <div id="board2" class="board2">
+                        <div class="buynow">
+                            <div style="display: flex; flex-direction: column; text-align: center;">
+                                <div> <b>MUA NGAY</b></div>
+                                <div>(Giao nhanh từ 2 giờ hoặc nhận từ cửa hàng)</div>
+                            </div>
+                        </div>
+                        <div class="buybasket ">
+                            <div class="iconshop"><i class="fa-solid fa-cart-plus"></i></div>
+                            <div class="themshop">Thêm vào giỏ</div>
+                        </div>
+                        <div class="buygop ">
+                            <div style="display: flex; flex-direction: column; text-align: center;">
+                                <div> <b>TRẢ GÓP 0%</b></div>
+                                <div>Trả trước chỉ từ 10.796.000đ</div>
+                            </div>
+                        </div>
+                        <div class="buycard">
+                            <div style="display: flex; flex-direction: column; text-align: center;">
+                                <div> <b>TRẢ GÓP QUA THẺ</b></div>
+                                <div>(Visa, Mastercard, JCB)</div>
+                            </div>
+                        </div>
+                        <div class="buymore"><b>Tìm hiểu thêm</b></div>
+                    </div>
+                    <div class="bonus">
+                        <div class="header_bonus">
+                            Ưu đãi thêm
+                        </div>
+                        <ul>
+                            <li>Giảm thêm tới 1% cho thành viên Smember (áp dụng tùy sản phẩm)</li>
+                            <li>Bảo vệ sản phẩm toàn diện với dịch vụ bảo hành mở rộng</li>
+                            <li><img src="https://cdn2.cellphones.com.vn/x/media/wysiwyg/vp-bank-icon-ssth5.png" alt="">
+                                Ưu đãi đến 800k khi mở thẻ VP Bank</li>
+                            <li><img style="width: 40px;" src="https://cdn.cellphones.com.vn/media/wysiwyg/DUMT_ZV0.png"
+                                    alt=""> Giảm thêm 5% tối đa 500.000đ khi thanh toán qua Kredivo</li>
+                            <li><img style="width: 40px;"
+                                    src="https://cdn2.cellphones.com.vn/x/media/wysiwyg/logo_vib.png" alt=""> Mở thẻ tín
+                                dụng VIB - Nhận voucher 200.000đ mua hàng tại CellphoneS</li>
+                            <li><img style="width: 40px;"
+                                    src="	https://cdn2.cellphones.com.vn/x/media/wysiwyg/download_41_.png" alt=""> Giảm
+                                500k đơn hàng từ 10 triệu (trừ các sản phẩm Apple)</li>
+                            <li><img src="https://cdn2.cellphones.com.vn/x/media/wysiwyg/vp-bank-icon-ssth5.png" alt="">
+                                Giảm 250k đơn hàng từ 6.5 triệu (trừ các sản phẩm Apple)</li>
+                            <li><img src="" alt=""> Thu cũ đổi mới: Giá thu cao - Thủ tục nhanh chóng - Trợ giá tốt nhất
+                            </li>
+                            <li><img style="width: 40px;"
+                                    src="	https://cdn2.cellphones.com.vn/x/media/wysiwyg/shopeepay-1.png" alt=""> Giảm
+                                đến 100k khi thanh toán qua Shopee Pay</li>
+                            <li><img src="https://cdn2.cellphones.com.vn/x/media/wysiwyg/t_i_xu_ng_7_.png" alt=""> Nhận
+                                ưu đãi 6.6 triệu khi mở thẻ tín dụng TPBank - Evo </li>
+
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <section class="footer_1">
+            <div>
+                <p>Tổng đài hỗ trợ miễn phí</p>
+                <div>
+                    <li><a href="">Gọi mua hàng 1800.2097 (7h30 - 22h00)</a></li>
+                    <li><a href="">Gọi mua hàng 1800.2097 (7h30 - 22h00)</a></li>
+                    <li><a href="">Gọi mua hàng 1800.2097 (7h30 - 22h00)</a></li>
+                </div>
+                <p>Phương thức thanh toán</p>
+                <a href=""><img src="https://image.cellphones.com.vn/x35/media/logo/payment/alepay-logo.png
+                        " alt=""></a>
+                <a href=""><img src="https://image.cellphones.com.vn/x35/media/logo/payment/zalopay-logo.png
+                        " alt=""></a>
+                <a href=""><img src="https://image.cellphones.com.vn/x35/media/logo/payment/vnpay-logo.png
+                        " alt=""></a>
+                <a href=""><img src="https://image.cellphones.com.vn/x35/media/logo/payment/moca-logo.png
+                        " alt=""></a>
+                <a href=""><img src="https://image.cellphones.com.vn/x35/media/logo/payment/onepay-logo.png" alt=""></a>
+                <a href=""><img src="	https://image.cellphones.com.vn/x35/media/logo/payment/kredivo-logo.png"
+                        alt=""></a>
+                <a href=""><img src="https://image.cellphones.com.vn/x35/media/logo/payment/mpos-logo.png" alt=""></a>
+            </div>
+            <div>
+                <p>Thông tin và chính sách</p>
+                <div>
+                    <li><a href="">Mua hàng và thanh toán online</a></li>
+                    <li><a href="">mua trả góp online</a></li>
+                    <li><a href="">Tra thông tin đơn hàng</a></li>
+                    <li><a href="">Tra điểm Smember</a></li>
+                    <li><a href="">Xem ưu đãi Smember</a></li>
+                    <li><a href="">Tra thông tin bảo hành</a></li>
+                    <li><a href="">Tra cứu hóa đơn điện tử</a></li>
+                    <li><a href="">Thông tin hóa đơn điện tử</a></li>
+                    <li><a href="">Trung tâm bảo hành chính hãng</a></li>
+                    <li><a href="">Quy định về việc sao lưu dữ kiệu</a></li>
+                </div>
+            </div>
+            <div>
+                <p>Dịch vụ và thông tin khác</p>
+                <div>
+                    <li><a href="">Khách hàng doanh nghiệp (B2B)</a></li>
+                    <li><a href="">Ưu đãi thanh toán</a></li>
+                    <li><a href="">Quy chế hoạt động</a></li>
+                    <li><a href="">Chính sách Bảo hành </a></li>
+                    <li><a href="">Liên hệ hợp tác kinh doanh</a></li>
+                    <li><a href="">Tuyển dụng</a></li>
+                    <li><a href="">Dịch vụ bảo hành điện thoại</a></li>
+                    <li><a href="">Dịch vụ bảo hành mở rộng</a></li>
+                </div>
+            </div>
+            <div>
+                <p>Tổng đài hỗ trợ miễn phí</p>
+                <div>
+                    <a href=""><img src="https://image.cellphones.com.vn/44x/media/logo/social/cellphones-youtube.png"
+                            alt=""></a>
+                    <a href=""><img src="https://image.cellphones.com.vn/44x/media/logo/social/cellphones-facebook.png
+                            " alt=""></a>
+                    <a href=""><img src="https://image.cellphones.com.vn/44x/media/logo/social/cellphones-instagram.png"
+                            alt=""></a>
+                    <a href=""><img src="https://image.cellphones.com.vn/44x/media/logo/social/cellphones-tiktok.png"
+                            alt=""></a>
+                    <a href=""><img src="https://image.cellphones.com.vn/44x/media/logo/social/cellphones-zalo.png"
+                            alt=""></a>
+
+                </div>
+            </div>
+        </section>
+        <section class="footer_1 footer_1-2">
+            <div>
+                <li><a href="">điện thoại</a> - <a href="">Điện thoại iPhone</a> - <a href="">Điện thoại iPhone 14</a>
+                </li>
+                <li><a href="">iPhone 14 Pro 128GB</a> - <a href="">iPhone 14 Pro Max 128GB</a></li>
+                <li><a href="">Điện thoại iPhone 12</a> - <a href="">Điện thoại iPhone 13</a></li>
+            </div>
+            <div>
+                <li><a href="">Điện thoại Vivo </a> - <a href="">Điện thoại OPPO </a> - <a href="">Điện thoại
+                        Samsung</a></li>
+                <li><a href="">Samsung S22</a> - <a href="">Điện thoại Samsung S23 Ultra</a></li>
+                <li><a href="">Samsung A13</a> - <a href="">Samsung A23 5G</a> - <a href="">Samsung A33</a></li>
+            </div>
+            <div>
+                <li><a href="">Máy tính Laptop</a> - <a href="">Tivi </a> - <a href="">Tivi Samsung</a></li>
+                <li><a href="">Laptop cũ giá rẻ </a> - <a href="">Laptop Acer</a> - <a href="">Laptop ASUS</a></li>
+                <li><a href="">Máy tính để bàn</a> - <a href="">Màn hình máy tính</a></li>
+            </div>
+            <div>
+                <li><a href="">Robot hút bụi</a> - <a href="">Máy lọc không khí</a></li>
+                <li><a href="">Robot hút bụi Xiaomi</a> - <a href="">Robot hút bụi Ecovas</a></li>
+                <li><a href="">Máy hút bụi</a> - <a href="">Máy hút bụi cầm tay</a> - <a href="">Camera</a></li>
+            </div>
+
+        </section>
+        <div class="footer_1-3">
+            <p style="text-align: center; font-size: 0.7em;">Công ty TNHH Thương Mại và Dịch Vụ Kỹ Thuật DIỆU PHÚC -
+                GPĐKKD: 0316172372 cấp tại Sở KH & ĐT TP. HCM. Địa chỉ văn phòng: 350-352 Võ Văn Kiệt, Phường Cô Giang,
+                Quận 1, Thành phố Hồ Chí Minh, Việt Nam. Điện thoại: 028.7108.9666.</p>
+            <div class="img_footer">
+                <div><img src="https://cdn2.cellphones.com.vn/80x,webp/media/logo/logoSaleNoti.png" alt=""></div>
+                <div><img style="width: 100px;"
+                        src="https://images.dmca.com/Badges/dmca_copyright_protected150c.png?ID=158f5667-cce3-4a18-b2d1-826225e6b022"
+                        alt=""></div>
+            </div>
+        </div>
+
+        <section class="footer_2">
+            <div class="footer_icon--home"><i class="fa-solid fa-house"></i>
+                <a href=""> Trang chủ</a>
+            </div>
+            <div class="footer_icon--list"><i class="fa-regular fa-rectangle-list"></i><a href=""> </i>Danh mục</i></a>
+            </div>
+            <div class="footer_icon--shop"><i class="fa-solid fa-shop"></i> <a href=""> Trang chủ</a></div>
+            <div class="footer_icon--login"><i class="fa-solid fa-user"></i><a href="">Đăng nhập</a></div>
+            <div class="footer_icon--login"><i style="position: relative; top: 2.5px; "
+                    class="fa-solid fa-ellipsis"></i> <a href=""> xem thêm</a></div>
+        </section>
+    </footer>
+
+
+    <script>
+        var imagesline = [
+            "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/v/_/v_ng_18.png",
+            "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/b/_/b_c_1_9.png",
+            "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/x/_/x_m_24.png",
+            "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/5/2522.png",
+            "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/8/9/896_2.png",
+            "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/5/25.9_2.png",
+            "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/5/25.10_2.png",
+            "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/5/25.4_3.png",
+            "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/6/26.3_2.png",
+            "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/5/25.2_5.png"
+        ]
+        var countsline = 0;
+
+        function lefttline() {
+            countsline--;
+            if (countsline < 0) {
+                countsline = imagesline.length - 1;
+            }
+            var hinh = document.getElementById("hinh");
+            hinh.src = imagesline[countsline];
+        }
+
+        function righttline() {
+            countsline++;
+            if (countsline >= imagesline.length) {
+                countsline = 0;
+            }
+            var hinh = document.getElementById("hinh");
+            hinh.src = imagesline[countsline];
+        }
+        function ligsmall(obj) {
+            var diachi = obj.src;
+            document.getElementById('hinh').src = diachi;
+        }
+        function bang1() {
+            document.getElementById("board1").style.display = "block";
+            document.getElementById("board2").style.display = "none";
+
+        }
+        function bang2() {
+            document.getElementById("board2").style.display = "grid  ";
+            document.getElementById("board1").style.display = "none";
+        }
+    </script>
+    <script src="../js/code.js"></script>
+</body>
+
+</html>

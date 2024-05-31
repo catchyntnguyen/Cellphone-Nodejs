@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- fontawesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- Main css -->
+<link rel="stylesheet" href="../css/style.css">
+<!-- reponsive css -->
+<link rel="stylesheet" href="../css/reponsive.css">
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<!-- heart -->
+<link rel="stylesheet" href="../css/heart.css">
+<!-- basket css -->
+<link rel="stylesheet" href="../css/basket.css">
+
+<body>
+    <section class="header">
+        <div class="menu_header">
+            <a class="header_logoimg" href=""><img class="header_logo" src="../img/logocell-removebg-preview.png"
+                    alt="">
+            </a>
+            <a class="header_logoimg2" href=""><img style="width: 60px; display: none;" class="header_logo2"
+                    src="../img/logo2.png" alt="">
+            </a>
+            <div class="header_list">
+                <i class="fa-regular fa-rectangle-list"></i>
+                <a href="#">Danh mục</a>
+            </div>
+            <div class="loca_HCM">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <a href=""> Xem giá tại </a><i class="fa-solid fa-chevron-down"></i><br>
+                    <a href="">Hồ Chí Minh</a>
+                </div>
+            </div>
+            <label class="input_header" for=""><i class="fa-solid fa-magnifying-glass"></i><input type="text1"
+                    placeholder="Bạn cần gì ?"></label>
+            <div class="header_phone">
+                <i class="fa-solid fa-phone"></i>
+                <a class="header_3cham " href="">Gọi mua hàng
+                    1800.2097</a>
+            </div>
+            <div class="header_car">
+                <i class="fa-solid fa-truck-fast"></i>
+                <a class="header_3cham " href="">Tra cứu
+                    đơn hàng</a>
+            </div>
+            <div class="header_bag">
+                <div style="text-align: center;" class="slgiohang"> <i class="fa-solid fa-bag-shopping"></i>
+                    <b id="sosp">0</b>
+                </div>
+                <a href="../html/basket.html">Giỏ
+                    hàng</a>
+            </div>
+            <div class="header_user" onclick="dangnhap()">
+                <i class="fa-solid fa-user"></i>
+                Đăng Nhập
+            </div>
+        </div>
+    </section>
+    <div class="chose_login" id="chose">
+        <div>
+            <div class="chose_login--header ">
+                <div><img src="https://cdn2.cellphones.com.vn/213x213,webp,q100/media/wysiwyg/Shipper_CPS.jpg" alt="">
+                </div>
+                <div class="Smember"><b>Smember</b></div>
+                <i class="fa-solid fa-x" onclick="chosecancel()" ></i>
+            </div>
+            <div class="chose_login--text">
+                <p>Vui lòng đăng nhập tài khoản Smember để có trải nghiệm mua sắm tốt hơn</p>
+            </div>
+            <div class="chose_login--btn">
+                <div class="login"><a href="../html/login.html"><b>Đăng nhập ngay</b></a></div>
+                <div class="signup1"><a href="../html/signup.html"><b>Đăng ký</b></a></div>
+            </div>
+        </div>
+    </div>
+    <main class="basket">
+        <section class="yesbuy">
+            <div class="backmenu">
+                <div style="margin-left: 50px;">
+                    Giỏ hàng
+                </div>
+                <div class="trove">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <a href="/index.html">Trở về</a>
+                </div>
+            </div>
+            <div class="nobuy" id="nobuy">
+                <div class="icon_boring"> <i class="fa-solid fa-face-frown"></i></div>
+                <div class="isgpd">Không có sản phẩn nào tron giỏ hàng, vui lòng quay lại</div>
+                <div class="btn_isgpd"><a style="color: white;" href="/index.html">Quay lại trang chủ</a></div>
+            </div>     
+        </section>
+        <div id="showcart">
+
+          
+        </div>
+        <div class="btn_productbasket" id="nutthanhtoan">
+            <div class="btn_productbasket--first">
+              <div><b>Tổng tiến tạm tính</b></div>
+              <div class="btn_productbasket--firstprice" id="thanhtien"></div>
+            </div>
+            <div class="btn_productbasket--secondaly">TIẾN HÀNG ĐẶT HÀNG</div>
+            <div class="btn_productbasket--final">CHỌN THÊM SẢN PHẢM KHÁC</div>
+          </div>
+    </main>
+    <script src="../js/cart.js" ></script>
+</body>
+
+</html>

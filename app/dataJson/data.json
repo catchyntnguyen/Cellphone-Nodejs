@@ -1,0 +1,2019 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "phone",
+      "description": "Tặng bảo hành Premium",
+      "img": "image-1711800307713.webp"
+    },
+    {
+      "id": 2,
+      "name": "laptop",
+      "description": "",
+      "img": ""
+    },
+    {
+      "id": 7,
+      "name": "Phụ kiện",
+      "description": "Danh mục cho phụ kiện",
+      "img": "image-1711809137226.jpg"
+    },
+    {
+      "id": 9,
+      "name": "phụ kiện 1",
+      "description": "phụ kiện",
+      "img": "image-1712565159705.jpg"
+    }
+  ],
+  "categories_brand": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "iphone",
+      "img": "iphone.webp",
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "name": "samsung",
+      "img": "image-1711810092973.webp",
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng 11"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "name": "xiaomi",
+      "img": "image-1712304994734.jpg",
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "name": "oppo",
+      "img": "image-1712313149802.webp",
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng"
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "name": "realme",
+      "img": "realme.webp",
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng"
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "name": "asus",
+      "img": "asus.webp",
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng"
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "name": "vivo",
+      "img": "visvo_.webp",
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng"
+    }
+  ],
+  "orders": [
+    {
+      "id": 661764,
+      "idUserBuy": 2,
+      "receiverName": "Khắc Duy",
+      "receiverPhone": "0348378112",
+      "receiverAddress": "Bến Tre",
+      "status": 4,
+      "createdAt": "2024-04-08T08:31:44.000Z",
+      "total": 37480000,
+      "receiverEmail": "catchy@gmail.com"
+    },
+    {
+      "id": 661763,
+      "idUserBuy": 1,
+      "receiverName": "Khac duy",
+      "receiverPhone": "123123123",
+      "receiverAddress": "Bến Tre",
+      "status": 0,
+      "createdAt": "2024-04-08T02:14:02.000Z",
+      "total": 25990000,
+      "receiverEmail": "catchy@gamil.com"
+    },
+    {
+      "id": 661762,
+      "idUserBuy": 1,
+      "receiverName": "admin1",
+      "receiverPhone": "1231321",
+      "receiverAddress": "admin 1",
+      "status": 0,
+      "createdAt": "2024-04-08T02:08:05.000Z",
+      "total": 14290000,
+      "receiverEmail": "admin1"
+    },
+    {
+      "id": 661761,
+      "idUserBuy": 1,
+      "receiverName": "admin",
+      "receiverPhone": "123123",
+      "receiverAddress": "admin",
+      "status": 0,
+      "createdAt": "2024-04-08T02:06:42.000Z",
+      "total": 23190000,
+      "receiverEmail": "admin"
+    },
+    {
+      "id": 661760,
+      "idUserBuy": 2,
+      "receiverName": "Khac duy",
+      "receiverPhone": "09022004",
+      "receiverAddress": "Bến Tre",
+      "status": 4,
+      "createdAt": "2024-04-08T02:04:41.000Z",
+      "total": 25990000,
+      "receiverEmail": "catchy@gmail.com"
+    },
+    {
+      "id": 661759,
+      "idUserBuy": 2,
+      "receiverName": "Khắc Duy",
+      "receiverPhone": "0348378112",
+      "receiverAddress": "Bến Tre",
+      "status": 0,
+      "createdAt": "2024-04-06T08:35:46.000Z",
+      "total": 77970000,
+      "receiverEmail": "catchy@gmail.com"
+    },
+    {
+      "id": 661758,
+      "idUserBuy": 1,
+      "receiverName": "Hoàng Thành",
+      "receiverPhone": "0393264928",
+      "receiverAddress": "Xã la gi ",
+      "status": 3,
+      "createdAt": "2024-04-05T07:46:56.000Z",
+      "total": 77970000,
+      "receiverEmail": "hoangthanh@gmail.com"
+    },
+    {
+      "id": 661664,
+      "idUserBuy": 1,
+      "receiverName": "Khắc Duy Nhận",
+      "receiverPhone": "0933333333333",
+      "receiverAddress": "Ấp nơi nhận xã nơi nhận Huyện nơi nhận tỉnh nơi nhận",
+      "status": 0,
+      "createdAt": "2024-04-03T22:06:06.000Z",
+      "total": 1000000,
+      "receiverEmail": "catchy@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "id": 110,
+      "name": "Alienware x15",
+      "categories": 2,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "alienware-x15.webp",
+      "priceOld": 41990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 37990000
+    },
+    {
+      "id": 109,
+      "name": "Dell Vostro 14 3000",
+      "categories": 2,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "dell-vostro-14-3000.webp",
+      "priceOld": 18990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 15990000
+    },
+    {
+      "id": 108,
+      "name": "Dell Precision 15 7000 (7560)",
+      "categories": 2,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "dell-precision-15-7000-7560.webp",
+      "priceOld": 33990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 29990000
+    },
+    {
+      "id": 107,
+      "name": "Dell Latitude 14 5000 (5420)",
+      "categories": 2,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "dell-latitude-14-5000-5420.webp",
+      "priceOld": 27990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 23990000
+    },
+    {
+      "id": 106,
+      "name": "Dell Inspiron 15 3000",
+      "categories": 2,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "dell-inspiron-15-3000.webp",
+      "priceOld": 14990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 12990000
+    },
+    {
+      "id": 105,
+      "name": "Dell XPS 13 (9310)",
+      "categories": 2,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "dell-xps-13-9310.webp",
+      "priceOld": 35990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 32990000
+    },
+    {
+      "id": 104,
+      "name": "Lenovo ThinkPad X1 Carbon Gen 9",
+      "categories": 2,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "lenovo-thinkpad-x1-carbon-gen-9.webp",
+      "priceOld": 32990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 29990000
+    },
+    {
+      "id": 103,
+      "name": "HP Spectre x360 13t",
+      "categories": 2,
+      "brandId": 3,
+      "quantity": 10,
+      "img": "hp-spectre-x360-13t.webp",
+      "priceOld": 22990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 20990000
+    },
+    {
+      "id": 102,
+      "name": "Dell XPS 13 9310",
+      "categories": 2,
+      "brandId": 2,
+      "quantity": 10,
+      "img": "dell-xps-13-9310.webp",
+      "priceOld": 23990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 21990000
+    },
+    {
+      "id": 101,
+      "name": "ASUS ZenBook 14 UX425EA",
+      "categories": 1,
+      "brandId": 1,
+      "quantity": 10,
+      "img": "image-1715069853109.png",
+      "priceOld": 16990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 14990000
+    },
+    {
+      "id": 76,
+      "name": "ASUS ZenBook 14 UX425EA",
+      "categories": 2,
+      "brandId": 1,
+      "quantity": 10,
+      "img": "asus-zenbook-14-ux425ea.webp",
+      "priceOld": 16990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 14990000
+    },
+    {
+      "id": 75,
+      "name": "Alienware x15",
+      "categories": 2,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "alienware-x15.webp",
+      "priceOld": 41990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 37990000
+    },
+    {
+      "id": 74,
+      "name": "Dell Vostro 14 3000",
+      "categories": 2,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "dell-vostro-14-3000.webp",
+      "priceOld": 18990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 15990000
+    },
+    {
+      "id": 73,
+      "name": "Dell Precision 15 7000 (7560)",
+      "categories": 2,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "dell-precision-15-7000-7560.webp",
+      "priceOld": 33990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 29990000
+    },
+    {
+      "id": 72,
+      "name": "Dell Latitude 14 5000 (5420)",
+      "categories": 2,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "dell-latitude-14-5000-5420.webp",
+      "priceOld": 27990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 23990000
+    },
+    {
+      "id": 71,
+      "name": "Dell Inspiron 15 3000",
+      "categories": 2,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "dell-inspiron-15-3000.webp",
+      "priceOld": 14990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 12990000
+    },
+    {
+      "id": 70,
+      "name": "Dell XPS 13 (9310)",
+      "categories": 2,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "dell-xps-13-9310.webp",
+      "priceOld": 35990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 32990000
+    },
+    {
+      "id": 69,
+      "name": "Lenovo ThinkPad X1 Carbon Gen 9",
+      "categories": 2,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "lenovo-thinkpad-x1-carbon-gen-9.webp",
+      "priceOld": 32990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 29990000
+    },
+    {
+      "id": 68,
+      "name": "HP Spectre x360 13t",
+      "categories": 2,
+      "brandId": 3,
+      "quantity": 10,
+      "img": "hp-spectre-x360-13t.webp",
+      "priceOld": 22990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 20990000
+    },
+    {
+      "id": 67,
+      "name": "Dell XPS 13 9310",
+      "categories": 2,
+      "brandId": 2,
+      "quantity": 10,
+      "img": "dell-xps-13-9310.webp",
+      "priceOld": 23990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 21990000
+    },
+    {
+      "id": 66,
+      "name": "vivo Y22S 8GB 128GB",
+      "categories": 1,
+      "brandId": 7,
+      "quantity": 10,
+      "img": "vivo-y22s.webp",
+      "priceOld": 5990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 4790000
+    },
+    {
+      "id": 65,
+      "name": "vivo V25 5G 8GB 128GB",
+      "categories": 1,
+      "brandId": 7,
+      "quantity": 10,
+      "img": "vivo-v25.webp",
+      "priceOld": 10490000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 6990000
+    },
+    {
+      "id": 64,
+      "name": "Vivo V27e 8GB 256GB",
+      "categories": 1,
+      "brandId": 7,
+      "quantity": 10,
+      "img": "vivo-v27e.webp",
+      "priceOld": 8990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 7990000
+    },
+    {
+      "id": 63,
+      "name": "vivo Y17s 4GB 128GB",
+      "categories": 1,
+      "brandId": 7,
+      "quantity": 10,
+      "img": "vivo-y17s_2_3.webp",
+      "priceOld": 3990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 3790000
+    },
+    {
+      "id": 62,
+      "name": "vivo Y16 4GB 128GB",
+      "categories": 1,
+      "brandId": 7,
+      "quantity": 10,
+      "img": "vivo-y16.webp",
+      "priceOld": 4490000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 3790000
+    },
+    {
+      "id": 61,
+      "name": "Vivo Y36 8GB 128GB",
+      "categories": 1,
+      "brandId": 7,
+      "quantity": 10,
+      "img": "vivo-y36.webp",
+      "priceOld": 5990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 5190000
+    },
+    {
+      "id": 60,
+      "name": "Vivo Y36 8GB 128GB",
+      "categories": 1,
+      "brandId": 7,
+      "quantity": 10,
+      "img": "vivo-y36.webp",
+      "priceOld": 5990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 5190000
+    },
+    {
+      "id": 59,
+      "name": "vivo V25 Pro 8GB 128GB",
+      "categories": 1,
+      "brandId": 7,
+      "quantity": 10,
+      "img": "vivo-v25-pro.webp",
+      "priceOld": 13990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 7990000
+    },
+    {
+      "id": 58,
+      "name": "vivo V29E 8GB 256GB",
+      "categories": 1,
+      "brandId": 7,
+      "quantity": 10,
+      "img": "vivo-v29e_3__1_2.webp",
+      "priceOld": 8990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 8690000
+    },
+    {
+      "id": 57,
+      "name": "ASUS ROG Phone 6 Diablo 16GB 512GB",
+      "categories": 1,
+      "brandId": 6,
+      "quantity": 10,
+      "img": "asus-rog-phone-6-diablo.webp",
+      "priceOld": 27990000,
+      "description": "Tặng miếng dán màn hình ROG Phone 6/7",
+      "priceNew": 17990000
+    },
+    {
+      "id": 56,
+      "name": "ASUS ROG Phone 5S 16GB 256GB",
+      "categories": 1,
+      "brandId": 6,
+      "quantity": 10,
+      "img": "asus-rog-phone-5_0002_gsmarena_001_3_1.webp",
+      "priceOld": 20990000,
+      "description": "Tặng miếng dán màn hình ROG Phone 6/7",
+      "priceNew": 17690000
+    },
+    {
+      "id": 55,
+      "name": "ASUS ROG Phone 5 chính hãng",
+      "categories": 1,
+      "brandId": 6,
+      "quantity": 10,
+      "img": "1_365-doc-quyuen.webp",
+      "priceOld": 22990000,
+      "description": "Tặng miếng dán màn hình ROG Phone 6/7",
+      "priceNew": 18990000
+    },
+    {
+      "id": 54,
+      "name": "ASUS ROG Phone 7 Ultimate 16GB 512GB",
+      "categories": 1,
+      "brandId": 6,
+      "quantity": 10,
+      "img": "1_365-doc-quyuen.webp",
+      "priceOld": 29990000,
+      "description": "Tặng miếng dán màn hình ROG Phone 6/7",
+      "priceNew": 26190000
+    },
+    {
+      "id": 53,
+      "name": "ASUS ROG Phone 6 16GB 512GB - Chỉ có tại CellphoneS",
+      "categories": 1,
+      "brandId": 6,
+      "quantity": 10,
+      "img": "rog6-doc-qq.webp",
+      "priceOld": 18990000,
+      "description": "Tặng miếng dán màn hình ROG Phone 6/7",
+      "priceNew": 13990000
+    },
+    {
+      "id": 52,
+      "name": "ASUS ROG Phone 6 12GB 256GB",
+      "categories": 1,
+      "brandId": 6,
+      "quantity": 10,
+      "img": "asus-rog-phone-6-12gb-256gb_1_1.webp",
+      "priceOld": 18990000,
+      "description": "Tặng miếng dán màn hình ROG Phone 6/7",
+      "priceNew": 13990000
+    },
+    {
+      "id": 51,
+      "name": "ASUS ROG Phone 7 16GB 512GB",
+      "categories": 1,
+      "brandId": 6,
+      "quantity": 10,
+      "img": "asus-rog-phone-7.webp",
+      "priceOld": 24990000,
+      "description": "Tặng miếng dán màn hình ROG Phone 6/7",
+      "priceNew": 20290000
+    },
+    {
+      "id": 50,
+      "name": "realme C51 6GB 256GB",
+      "categories": 1,
+      "brandId": 5,
+      "quantity": 10,
+      "img": "realme-c51_2_1.webp",
+      "priceOld": 7190000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 4990000
+    },
+    {
+      "id": 49,
+      "name": "realme C35 4GB 64GB",
+      "categories": 1,
+      "brandId": 5,
+      "quantity": 10,
+      "img": "frame3935-640x640.webp",
+      "priceOld": 4290000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 2990000
+    },
+    {
+      "id": 48,
+      "name": "realme C30s 2GB 32GB",
+      "categories": 1,
+      "brandId": 5,
+      "quantity": 10,
+      "img": "realme-c30s-den-glr--009.webp",
+      "priceOld": 2490000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 1990000
+    },
+    {
+      "id": 47,
+      "name": "realme C30s 4GB 64GB",
+      "categories": 1,
+      "brandId": 5,
+      "quantity": 10,
+      "img": "realme-c30s-den-glr--009_3.webp",
+      "priceOld": 3190000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 2590000
+    },
+    {
+      "id": 46,
+      "name": "realme 9 Pro",
+      "categories": 1,
+      "brandId": 5,
+      "quantity": 10,
+      "img": "real_me_pro_002.webp",
+      "priceOld": 7990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 4590000
+    },
+    {
+      "id": 45,
+      "name": "realme 10 8GB 256GB",
+      "categories": 1,
+      "brandId": 5,
+      "quantity": 10,
+      "img": "white-7e6a0f537b",
+      "priceOld": 7190000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 4990000
+    },
+    {
+      "id": 44,
+      "name": "realme C51 4GB 128GB",
+      "categories": 1,
+      "brandId": 5,
+      "quantity": 10,
+      "img": "realme-11-pro.webp",
+      "priceOld": 3490000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 3290000
+    },
+    {
+      "id": 43,
+      "name": "realme 11 Pro (8GB - 256GB)",
+      "categories": 1,
+      "brandId": 5,
+      "quantity": 10,
+      "img": "realme-11-pro.webp",
+      "priceOld": 11990000,
+      "description": "Quyền lợi bảo hành Vip 12 tháng 1 đổi 1 tại CellphoneS",
+      "priceNew": 10990000
+    },
+    {
+      "id": 42,
+      "name": "realme C55 (6GB - 128GB)",
+      "categories": 1,
+      "brandId": 5,
+      "quantity": 10,
+      "img": "rgrgrtyt6.webp",
+      "priceOld": 4990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 4190000
+    },
+    {
+      "id": 41,
+      "name": "realme 11",
+      "categories": 1,
+      "brandId": 5,
+      "quantity": 10,
+      "img": "realme-11.webp",
+      "priceOld": 7390000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 6490000
+    },
+    {
+      "id": 40,
+      "name": "OPPO Reno8 Z",
+      "categories": 1,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "photo_2022-08-05_09-40-15.webp",
+      "priceOld": 10490000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 7890000
+    },
+    {
+      "id": 39,
+      "name": "OPPO Reno8 Z",
+      "categories": 1,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "photo_2022-08-05_09-40-15.webp",
+      "priceOld": 10490000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 7890000
+    },
+    {
+      "id": 38,
+      "name": "Điện thoại OPPO A55 (4GB - 64GB)",
+      "categories": 1,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "oppo-a55_1_1.webp",
+      "priceOld": 3690000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 3490000
+    },
+    {
+      "id": 37,
+      "name": "OPPO Reno7 5G (8GB 256GB)",
+      "categories": 1,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "oppo-reno-7_1.webp",
+      "priceOld": 12990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 7590000
+    },
+    {
+      "id": 36,
+      "name": "OPPO A17K",
+      "categories": 1,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "oppo-a17k.webp",
+      "priceOld": 3290000,
+      "description": "Thu cũ điện thoại 2G ... giảm thêm 200K",
+      "priceNew": 2990000
+    },
+    {
+      "id": 35,
+      "name": "OPPO A77s",
+      "categories": 1,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "oppo-a55_1_.webp",
+      "priceOld": 6290000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 5190000
+    },
+    {
+      "id": 34,
+      "name": "OPPO Find N2 Flip",
+      "categories": 1,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "",
+      "priceOld": 19990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 16990000
+    },
+    {
+      "id": 33,
+      "name": "OPPO Reno8 T 4G 256GB",
+      "categories": 1,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "oppo-reno-8t-4g-256gb.webp",
+      "priceOld": 8490000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 6690000
+    },
+    {
+      "id": 32,
+      "name": "OPPO Reno10 5G 8GB 256GB1111",
+      "categories": 1,
+      "brandId": 4,
+      "quantity": 10,
+      "img": "reno10_5g_-_combo_product_-_blue.webp",
+      "priceOld": 10990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 9990000
+    },
+    {
+      "id": 31,
+      "name": "Xiaomi POCO X5 5G 8GB 256GB",
+      "categories": 1,
+      "brandId": 3,
+      "quantity": 10,
+      "img": "poco-x5-256gb_1.webp",
+      "priceOld": 7490000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 6050000
+    },
+    {
+      "id": 30,
+      "name": "Xiaomi 13 Lite",
+      "categories": 1,
+      "brandId": 3,
+      "quantity": 10,
+      "img": "xiaomi-13-lite.webp",
+      "priceOld": 11490000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 8990000
+    },
+    {
+      "id": 29,
+      "name": "Xiaomi 13 8GB 256GB",
+      "categories": 1,
+      "brandId": 3,
+      "quantity": 10,
+      "img": "xiaomi-13.webp",
+      "priceOld": 22990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 18090000
+    },
+    {
+      "id": 28,
+      "name": "Xiaomi Redmi 13C 6GB 128GB",
+      "categories": 1,
+      "brandId": 3,
+      "quantity": 10,
+      "img": "xiaomi-redmi-13c_21__1.webp",
+      "priceOld": 3490000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 3290000
+    },
+    {
+      "id": 27,
+      "name": "Xiaomi 13T 12GB 256GB",
+      "categories": 1,
+      "brandId": 3,
+      "quantity": 10,
+      "img": "xiaomi-13t_1__1_2.webp",
+      "priceOld": 12990000,
+      "description": "Tặng bảo hành Premium",
+      "priceNew": 11990000
+    },
+    {
+      "id": 26,
+      "name": "Xiaomi Redmi Note 12 Pro 5G",
+      "categories": 1,
+      "brandId": 3,
+      "quantity": 10,
+      "img": "xiaomi-redmi-note-12-pro-5g.webp",
+      "priceOld": 9490000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 7990000
+    },
+    {
+      "id": 25,
+      "name": "Xiaomi 13T Pro 5G (12GB - 512GB) - Chỉ có tại CellphoneS",
+      "categories": 1,
+      "brandId": 3,
+      "quantity": 10,
+      "img": "xiaomi-13-pro-thumb-xanh-la9.webp",
+      "priceOld": 16990000,
+      "description": "Tặng bảo hành Premium và 1 km khác",
+      "priceNew": 15490000
+    },
+    {
+      "id": 23,
+      "name": "Xiaomi Redmi Note 13 Pro Plus 5G 8GB 256GB",
+      "categories": 1,
+      "brandId": 3,
+      "quantity": 10,
+      "img": "xiaomi-redmi-note-13_1__1_1.webp",
+      "priceOld": 10990000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 10690000
+    },
+    {
+      "id": 22,
+      "name": "Xiaomi Redmi Note 13 6GB 128GB",
+      "categories": 1,
+      "brandId": 3,
+      "quantity": 10,
+      "img": "xiaomi-redmi-note-13_1__1_1.webp",
+      "priceOld": 4890000,
+      "description": "Trả góp 0% lãi suất, không trả trước, không phụ phí qua Shinhan Finance",
+      "priceNew": 4590000
+    },
+    {
+      "id": 21,
+      "name": "Samsung Galaxy S20 FE 256GB",
+      "categories": 1,
+      "brandId": 3,
+      "quantity": 10,
+      "img": "samsung-galaxy-20-fe_4_.webp",
+      "priceOld": 12490000,
+      "description": "Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+",
+      "priceNew": 7200000
+    },
+    {
+      "id": 20,
+      "name": "Samsung Galaxy Z Flip4 256GB",
+      "categories": 1,
+      "brandId": 2,
+      "quantity": 10,
+      "img": "samsung-galaxy-z-flip-4_1.webp",
+      "priceOld": 44990000,
+      "description": "Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+",
+      "priceNew": 35990000
+    },
+    {
+      "id": 19,
+      "name": "Samsung Galaxy A25 5G 6GB 128GB",
+      "categories": 1,
+      "brandId": 2,
+      "quantity": 10,
+      "img": "sm-g990_s21fe_backfront_lv.webp",
+      "priceOld": 8490000,
+      "description": "Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+",
+      "priceNew": 7090000
+    },
+    {
+      "id": 18,
+      "name": "Samsung Galaxy A23 5G",
+      "categories": 1,
+      "brandId": 2,
+      "quantity": 10,
+      "img": "15_20.webp",
+      "priceOld": 5990000,
+      "description": "Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+",
+      "priceNew": 4650000
+    },
+    {
+      "id": 17,
+      "name": "Samsung Galaxy S21 FE 8GB 128GB",
+      "categories": 1,
+      "brandId": 2,
+      "quantity": 10,
+      "img": "sm-g990_s21fe_backfront_lv.webp",
+      "priceOld": 16990000,
+      "description": "Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+",
+      "priceNew": 9590000
+    },
+    {
+      "id": 16,
+      "name": "Samsung Galaxy A05S 4GB 128GB",
+      "categories": 1,
+      "brandId": 2,
+      "quantity": 10,
+      "img": "samsung-galaxy-a05sl.webp",
+      "priceOld": 3990000,
+      "description": "Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+",
+      "priceNew": 3690000
+    },
+    {
+      "id": 15,
+      "name": "Samsung Galaxy M14 5G 4GB 128GB",
+      "categories": 1,
+      "brandId": 2,
+      "quantity": 10,
+      "img": "samsung-galaxy-m14.webp",
+      "priceOld": 5290000,
+      "description": "Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+",
+      "priceNew": 3650000
+    },
+    {
+      "id": 14,
+      "name": "Samsung Galaxy S22 Ultra (12GB - 256GB) - Chỉ có tại CellphoneS",
+      "categories": 1,
+      "brandId": 2,
+      "quantity": 10,
+      "img": "samsung-galaxy-s22-ultra-12gb-256gb.webp",
+      "priceOld": 33990000,
+      "description": "Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+",
+      "priceNew": 17550000
+    },
+    {
+      "id": 13,
+      "name": "Samsung Galaxy Z Fold5 12GB 256GB",
+      "categories": 1,
+      "brandId": 2,
+      "quantity": 10,
+      "img": "samsung-galaxy-z-fold-5-256gb_1.webp",
+      "priceOld": 40990000,
+      "description": "Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+",
+      "priceNew": 33690000
+    },
+    {
+      "id": 12,
+      "name": "Samsung Galaxy Z Flip5 512GB",
+      "categories": 1,
+      "brandId": 2,
+      "quantity": 10,
+      "img": "samsung-galaxy-z-flip-5-256gb_1_5.webp",
+      "priceOld": 29990000,
+      "description": "Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+",
+      "priceNew": 20590000
+    },
+    {
+      "id": 11,
+      "name": "Samsung Galaxy S23 Ultra 256GB",
+      "categories": 1,
+      "brandId": 1,
+      "quantity": 10,
+      "img": "samsung-galaxy-s23-ultra.webp",
+      "priceOld": 31990000,
+      "description": "Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+",
+      "priceNew": 23190000
+    },
+    {
+      "id": 10,
+      "name": "iPhone 12 128GB | Chính hãng VN/A",
+      "categories": 1,
+      "brandId": 1,
+      "quantity": 10,
+      "img": "iphone-12-128gb_2.webp",
+      "priceOld": 17990000,
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng",
+      "priceNew": 14290000
+    },
+    {
+      "id": 9,
+      "name": "iPhone 14 Plus 128GB | Chính hãng VN/A",
+      "categories": 1,
+      "brandId": 1,
+      "quantity": 10,
+      "img": "iphone-14-plus_1_.webp",
+      "priceOld": 24990000,
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng",
+      "priceNew": 20990000
+    },
+    {
+      "id": 8,
+      "name": "iPhone 11 64GB | Chính hãng VN/A",
+      "categories": 1,
+      "brandId": 1,
+      "quantity": 10,
+      "img": "iphone-11.webp",
+      "priceOld": 11990000,
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng",
+      "priceNew": 9990000
+    },
+    {
+      "id": 7,
+      "name": "iPhone 14 128GB | Chính hãng VN/A",
+      "categories": 1,
+      "brandId": 1,
+      "quantity": 10,
+      "img": "iphone-14_1.webp",
+      "priceOld": 22990000,
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng",
+      "priceNew": 18590000
+    },
+    {
+      "id": 6,
+      "name": "iPhone 13 Pro Max 128GB | Chính hãng VN/A",
+      "categories": 1,
+      "brandId": 1,
+      "quantity": 10,
+      "img": "iphone-13-pro-max.webp",
+      "priceOld": 28990000,
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng",
+      "priceNew": 22990000
+    },
+    {
+      "id": 5,
+      "name": "iPhone 15 Pro 128GB | Chính hãng VN/A",
+      "categories": 1,
+      "brandId": 1,
+      "quantity": 10,
+      "img": "iphone-15-pro-max_4.webp",
+      "priceOld": 28990000,
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng",
+      "priceNew": 25990000
+    },
+    {
+      "id": 4,
+      "name": "iPhone 13 128GB | Chính hãng VN/A",
+      "categories": 1,
+      "brandId": 1,
+      "quantity": 10,
+      "img": "iphone-13_2_.webp",
+      "priceOld": 18990000,
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng",
+      "priceNew": 25990000
+    },
+    {
+      "id": 3,
+      "name": "iPhone 14 Pro Max 128GB | Chính hãng VN/A",
+      "categories": 1,
+      "brandId": 1,
+      "quantity": 10,
+      "img": "iphone-14-pro_2__5.webp",
+      "priceOld": 29990000,
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng",
+      "priceNew": 25990000
+    },
+    {
+      "id": 2,
+      "name": "iPhone 15 128GB | Chính hãng VN/A",
+      "categories": 1,
+      "brandId": 1,
+      "quantity": 10,
+      "img": "iphone-15-plus_1__1.webp",
+      "priceOld": 22990000,
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng",
+      "priceNew": 25990000
+    },
+    {
+      "id": 1,
+      "name": "iPhone 15",
+      "categories": 1,
+      "brandId": 1,
+      "quantity": 100,
+      "img": "image-1711883578147.webp",
+      "priceOld": 32490000,
+      "description": "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kỳ hạn 3-6 tháng",
+      "priceNew": 12000000
+    }
+  ],
+  "product_versions": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "color": "black",
+      "storage": 128,
+      "ram": 8,
+      "price": 34990000
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "color": "black",
+      "storage": 128,
+      "ram": 8,
+      "price": 21690000
+    },
+    {
+      "id": 3,
+      "product_id": 2,
+      "color": "white",
+      "storage": 128,
+      "ram": 8,
+      "price": 21690000
+    },
+    {
+      "id": 4,
+      "product_id": 3,
+      "color": "black",
+      "storage": 128,
+      "ram": 8,
+      "price": 26990000
+    },
+    {
+      "id": 5,
+      "product_id": 3,
+      "color": "silver",
+      "storage": 128,
+      "ram": 8,
+      "price": 26990000
+    },
+    {
+      "id": 6,
+      "product_id": 4,
+      "color": "blue",
+      "storage": 128,
+      "ram": 8,
+      "price": 15850000
+    },
+    {
+      "id": 7,
+      "product_id": 4,
+      "color": "red",
+      "storage": 128,
+      "ram": 8,
+      "price": 15850000
+    },
+    {
+      "id": 8,
+      "product_id": 5,
+      "color": "black",
+      "storage": 128,
+      "ram": 8,
+      "price": 27690000
+    },
+    {
+      "id": 9,
+      "product_id": 5,
+      "color": "white",
+      "storage": 128,
+      "ram": 8,
+      "price": 27690000
+    },
+    {
+      "id": 10,
+      "product_id": 11,
+      "color": "black",
+      "storage": 256,
+      "ram": 12,
+      "price": 23190000
+    },
+    {
+      "id": 11,
+      "product_id": 11,
+      "color": "blue",
+      "storage": 256,
+      "ram": 12,
+      "price": 23190000
+    },
+    {
+      "id": 12,
+      "product_id": 11,
+      "color": "blue",
+      "storage": 512,
+      "ram": 16,
+      "price": 25990000
+    },
+    {
+      "id": 13,
+      "product_id": 12,
+      "color": "white",
+      "storage": 512,
+      "ram": 8,
+      "price": 20590000
+    },
+    {
+      "id": 14,
+      "product_id": 12,
+      "color": "white",
+      "storage": 256,
+      "ram": 8,
+      "price": 18590000
+    },
+    {
+      "id": 15,
+      "product_id": 13,
+      "color": "black",
+      "storage": 256,
+      "ram": 12,
+      "price": 33690000
+    },
+    {
+      "id": 16,
+      "product_id": 13,
+      "color": "silver",
+      "storage": 256,
+      "ram": 12,
+      "price": 33690000
+    },
+    {
+      "id": 17,
+      "product_id": 13,
+      "color": "silver",
+      "storage": 512,
+      "ram": 16,
+      "price": 36990000
+    },
+    {
+      "id": 18,
+      "product_id": 14,
+      "color": "green",
+      "storage": 256,
+      "ram": 12,
+      "price": 17550000
+    },
+    {
+      "id": 19,
+      "product_id": 15,
+      "color": "black",
+      "storage": 128,
+      "ram": 4,
+      "price": 3650000
+    },
+    {
+      "id": 20,
+      "product_id": 15,
+      "color": "blue",
+      "storage": 128,
+      "ram": 4,
+      "price": 3650000
+    },
+    {
+      "id": 21,
+      "product_id": 15,
+      "color": "blue",
+      "storage": 256,
+      "ram": 6,
+      "price": 4250000
+    },
+    {
+      "id": 22,
+      "product_id": 16,
+      "color": "black",
+      "storage": 128,
+      "ram": 4,
+      "price": 3690000
+    },
+    {
+      "id": 23,
+      "product_id": 16,
+      "color": "blue",
+      "storage": 128,
+      "ram": 4,
+      "price": 3690000
+    },
+    {
+      "id": 24,
+      "product_id": 17,
+      "color": "green",
+      "storage": 128,
+      "ram": 8,
+      "price": 9590000
+    },
+    {
+      "id": 25,
+      "product_id": 20,
+      "color": "purple",
+      "storage": 256,
+      "ram": 8,
+      "price": 35990000
+    },
+    {
+      "id": 26,
+      "product_id": 20,
+      "color": "gold",
+      "storage": 256,
+      "ram": 8,
+      "price": 35990000
+    },
+    {
+      "id": 27,
+      "product_id": 21,
+      "color": "black",
+      "storage": 256,
+      "ram": 8,
+      "price": 7200000
+    },
+    {
+      "id": 28,
+      "product_id": 21,
+      "color": "white",
+      "storage": 256,
+      "ram": 8,
+      "price": 7200000
+    },
+    {
+      "id": 29,
+      "product_id": 22,
+      "color": "blue",
+      "storage": 128,
+      "ram": 6,
+      "price": 4590000
+    },
+    {
+      "id": 30,
+      "product_id": 22,
+      "color": "gray",
+      "storage": 128,
+      "ram": 6,
+      "price": 4590000
+    },
+    {
+      "id": 31,
+      "product_id": 23,
+      "color": "black",
+      "storage": 256,
+      "ram": 8,
+      "price": 10690000
+    },
+    {
+      "id": 32,
+      "product_id": 23,
+      "color": "blue",
+      "storage": 256,
+      "ram": 8,
+      "price": 10690000
+    },
+    {
+      "id": 33,
+      "product_id": 25,
+      "color": "black",
+      "storage": 512,
+      "ram": 12,
+      "price": 15490000
+    },
+    {
+      "id": 34,
+      "product_id": 26,
+      "color": "blue",
+      "storage": 128,
+      "ram": 8,
+      "price": 7990000
+    },
+    {
+      "id": 35,
+      "product_id": 26,
+      "color": "blue",
+      "storage": 256,
+      "ram": 8,
+      "price": 9490000
+    },
+    {
+      "id": 36,
+      "product_id": 27,
+      "color": "silver",
+      "storage": 256,
+      "ram": 12,
+      "price": 11990000
+    },
+    {
+      "id": 37,
+      "product_id": 28,
+      "color": "gray",
+      "storage": 128,
+      "ram": 6,
+      "price": 3290000
+    },
+    {
+      "id": 38,
+      "product_id": 29,
+      "color": "black",
+      "storage": 256,
+      "ram": 8,
+      "price": 18090000
+    },
+    {
+      "id": 39,
+      "product_id": 30,
+      "color": "white",
+      "storage": 128,
+      "ram": 6,
+      "price": 8990000
+    },
+    {
+      "id": 40,
+      "product_id": 30,
+      "color": "white",
+      "storage": 256,
+      "ram": 8,
+      "price": 11490000
+    },
+    {
+      "id": 41,
+      "product_id": 31,
+      "color": "black",
+      "storage": 256,
+      "ram": 8,
+      "price": 6050000
+    },
+    {
+      "id": 42,
+      "product_id": 32,
+      "color": "blue",
+      "storage": 256,
+      "ram": 8,
+      "price": 9990000
+    },
+    {
+      "id": 43,
+      "product_id": 33,
+      "color": "gray",
+      "storage": 256,
+      "ram": 4,
+      "price": 6690000
+    },
+    {
+      "id": 44,
+      "product_id": 37,
+      "color": "black",
+      "storage": 256,
+      "ram": 8,
+      "price": 7590000
+    },
+    {
+      "id": 45,
+      "product_id": 38,
+      "color": "black",
+      "storage": 64,
+      "ram": 4,
+      "price": 3490000
+    },
+    {
+      "id": 46,
+      "product_id": 39,
+      "color": "blue",
+      "storage": 256,
+      "ram": 8,
+      "price": 7890000
+    },
+    {
+      "id": 47,
+      "product_id": 40,
+      "color": "silver",
+      "storage": 128,
+      "ram": 6,
+      "price": 7890000
+    },
+    {
+      "id": 48,
+      "product_id": 40,
+      "color": "silver",
+      "storage": 256,
+      "ram": 8,
+      "price": 10490000
+    },
+    {
+      "id": 49,
+      "product_id": 41,
+      "color": "gold",
+      "storage": 128,
+      "ram": 8,
+      "price": 6490000
+    },
+    {
+      "id": 50,
+      "product_id": 41,
+      "color": "blue",
+      "storage": 128,
+      "ram": 6,
+      "price": 4190000
+    },
+    {
+      "id": 51,
+      "product_id": 41,
+      "color": "silver",
+      "storage": 128,
+      "ram": 6,
+      "price": 7890000
+    },
+    {
+      "id": 52,
+      "product_id": 41,
+      "color": "silver",
+      "storage": 256,
+      "ram": 8,
+      "price": 10490000
+    },
+    {
+      "id": 53,
+      "product_id": 41,
+      "color": "black",
+      "storage": 128,
+      "ram": 4,
+      "price": 3290000
+    },
+    {
+      "id": 54,
+      "product_id": 42,
+      "color": "black",
+      "storage": 128,
+      "ram": 6,
+      "price": 4190000
+    },
+    {
+      "id": 55,
+      "product_id": 42,
+      "color": "black",
+      "storage": 256,
+      "ram": 8,
+      "price": 5290000
+    },
+    {
+      "id": 56,
+      "product_id": 42,
+      "color": "blue",
+      "storage": 128,
+      "ram": 6,
+      "price": 4290000
+    },
+    {
+      "id": 57,
+      "product_id": 42,
+      "color": "blue",
+      "storage": 256,
+      "ram": 8,
+      "price": 5390000
+    },
+    {
+      "id": 58,
+      "product_id": 43,
+      "color": "black",
+      "storage": 128,
+      "ram": 6,
+      "price": 4190000
+    },
+    {
+      "id": 59,
+      "product_id": 44,
+      "color": "silver",
+      "storage": 32,
+      "ram": 2,
+      "price": 1990000
+    },
+    {
+      "id": 60,
+      "product_id": 45,
+      "color": "silver",
+      "storage": 256,
+      "ram": 8,
+      "price": 10490000
+    },
+    {
+      "id": 61,
+      "product_id": 46,
+      "color": "black",
+      "storage": 128,
+      "ram": 6,
+      "price": 4190000
+    },
+    {
+      "id": 62,
+      "product_id": 47,
+      "color": "blue",
+      "storage": 256,
+      "ram": 8,
+      "price": 5390000
+    },
+    {
+      "id": 63,
+      "product_id": 48,
+      "color": "silver",
+      "storage": 32,
+      "ram": 2,
+      "price": 1990000
+    },
+    {
+      "id": 64,
+      "product_id": 49,
+      "color": "black",
+      "storage": 64,
+      "ram": 4,
+      "price": 2990000
+    },
+    {
+      "id": 65,
+      "product_id": 50,
+      "color": "blue",
+      "storage": 256,
+      "ram": 6,
+      "price": 4990000
+    },
+    {
+      "id": 66,
+      "product_id": 51,
+      "color": "black",
+      "storage": 512,
+      "ram": 16,
+      "price": 20290000
+    },
+    {
+      "id": 67,
+      "product_id": 52,
+      "color": "black",
+      "storage": 256,
+      "ram": 12,
+      "price": 13990000
+    },
+    {
+      "id": 68,
+      "product_id": 53,
+      "color": "black",
+      "storage": 512,
+      "ram": 16,
+      "price": 13990000
+    },
+    {
+      "id": 69,
+      "product_id": 54,
+      "color": "silver",
+      "storage": 512,
+      "ram": 16,
+      "price": 26190000
+    },
+    {
+      "id": 70,
+      "product_id": 56,
+      "color": "black",
+      "storage": 256,
+      "ram": 16,
+      "price": 17690000
+    },
+    {
+      "id": 71,
+      "product_id": 57,
+      "color": "red",
+      "storage": 512,
+      "ram": 16,
+      "price": 17990000
+    },
+    {
+      "id": 72,
+      "product_id": 58,
+      "color": "blue",
+      "storage": 256,
+      "ram": 8,
+      "price": 8690000
+    },
+    {
+      "id": 73,
+      "product_id": 58,
+      "color": "white",
+      "storage": 256,
+      "ram": 12,
+      "price": 8990000
+    },
+    {
+      "id": 74,
+      "product_id": 60,
+      "color": "gold",
+      "storage": 128,
+      "ram": 8,
+      "price": 5190000
+    },
+    {
+      "id": 75,
+      "product_id": 60,
+      "color": "rose gold",
+      "storage": 128,
+      "ram": 8,
+      "price": 5290000
+    },
+    {
+      "id": 76,
+      "product_id": 61,
+      "color": "black",
+      "storage": 128,
+      "ram": 8,
+      "price": 5190000
+    },
+    {
+      "id": 77,
+      "product_id": 61,
+      "color": "white",
+      "storage": 128,
+      "ram": 8,
+      "price": 5190000
+    },
+    {
+      "id": 78,
+      "product_id": 62,
+      "color": "blue",
+      "storage": 128,
+      "ram": 4,
+      "price": 3790000
+    },
+    {
+      "id": 79,
+      "product_id": 62,
+      "color": "black",
+      "storage": 128,
+      "ram": 4,
+      "price": 3790000
+    },
+    {
+      "id": 80,
+      "product_id": 63,
+      "color": "blue",
+      "storage": 128,
+      "ram": 4,
+      "price": 3790000
+    },
+    {
+      "id": 81,
+      "product_id": 64,
+      "color": "blue",
+      "storage": 256,
+      "ram": 8,
+      "price": 7990000
+    },
+    {
+      "id": 82,
+      "product_id": 101,
+      "color": "Silver",
+      "storage": 512,
+      "ram": 8,
+      "price": 14990000
+    },
+    {
+      "id": 83,
+      "product_id": 101,
+      "color": "Silver",
+      "storage": 1024,
+      "ram": 16,
+      "price": 18990000
+    },
+    {
+      "id": 84,
+      "product_id": 102,
+      "color": "Black",
+      "storage": 512,
+      "ram": 8,
+      "price": 21990000
+    },
+    {
+      "id": 85,
+      "product_id": 102,
+      "color": "Black",
+      "storage": 1024,
+      "ram": 16,
+      "price": 26990000
+    },
+    {
+      "id": 86,
+      "product_id": 103,
+      "color": "Dark Ash Silver",
+      "storage": 512,
+      "ram": 8,
+      "price": 20990000
+    },
+    {
+      "id": 87,
+      "product_id": 103,
+      "color": "Dark Ash Silver",
+      "storage": 1024,
+      "ram": 16,
+      "price": 24990000
+    },
+    {
+      "id": 88,
+      "product_id": 104,
+      "color": "Black",
+      "storage": 512,
+      "ram": 8,
+      "price": 29990000
+    },
+    {
+      "id": 89,
+      "product_id": 104,
+      "color": "Black",
+      "storage": 1024,
+      "ram": 16,
+      "price": 34990000
+    },
+    {
+      "id": 90,
+      "product_id": 105,
+      "color": "Platinum Silver with Black carbon fiber palmrest",
+      "storage": 256,
+      "ram": 8,
+      "price": 32990000
+    },
+    {
+      "id": 91,
+      "product_id": 105,
+      "color": "Platinum Silver with Black carbon fiber palmrest",
+      "storage": 512,
+      "ram": 16,
+      "price": 36990000
+    },
+    {
+      "id": 92,
+      "product_id": 106,
+      "color": "Black",
+      "storage": 256,
+      "ram": 4,
+      "price": 12990000
+    },
+    {
+      "id": 93,
+      "product_id": 106,
+      "color": "Black",
+      "storage": 512,
+      "ram": 8,
+      "price": 15990000
+    },
+    {
+      "id": 94,
+      "product_id": 107,
+      "color": "Carbon Fiber",
+      "storage": 256,
+      "ram": 8,
+      "price": 23990000
+    },
+    {
+      "id": 95,
+      "product_id": 107,
+      "color": "Carbon Fiber",
+      "storage": 512,
+      "ram": 16,
+      "price": 27990000
+    },
+    {
+      "id": 96,
+      "product_id": 108,
+      "color": "Black",
+      "storage": 512,
+      "ram": 16,
+      "price": 29990000
+    },
+    {
+      "id": 97,
+      "product_id": 108,
+      "color": "Black",
+      "storage": 1024,
+      "ram": 32,
+      "price": 33990000
+    },
+    {
+      "id": 98,
+      "product_id": 109,
+      "color": "Black",
+      "storage": 256,
+      "ram": 4,
+      "price": 15990000
+    },
+    {
+      "id": 99,
+      "product_id": 109,
+      "color": "Black",
+      "storage": 512,
+      "ram": 8,
+      "price": 18990000
+    },
+    {
+      "id": 100,
+      "product_id": 110,
+      "color": "Dark Side of the Moon",
+      "storage": 512,
+      "ram": 16,
+      "price": 37990000
+    },
+    {
+      "id": 101,
+      "product_id": 110,
+      "color": "Dark Side of the Moon",
+      "storage": 1024,
+      "ram": 32,
+      "price": 41990000
+    }
+  ],
+  "users": [
+    {
+      "id": 8,
+      "email": "catchy@gamil.com",
+      "name": "Duy",
+      "phone": "0348378112",
+      "address": "",
+      "password": "123",
+      "role": 0
+    },
+    {
+      "id": 4,
+      "email": "duy@gmail.com",
+      "name": "Duy",
+      "phone": "09734283",
+      "address": "",
+      "password": "123",
+      "role": 0
+    },
+    {
+      "id": 3,
+      "email": "duy@gamil.com",
+      "name": "duy",
+      "phone": "9304949234",
+      "address": "",
+      "password": "123",
+      "role": 0
+    },
+    {
+      "id": 2,
+      "email": "cline@gmail.com",
+      "name": "cline",
+      "phone": "0348378112",
+      "address": "Ấp chợ xếp xã Tân Thành Bình Huyện Mỏ Cày Bắc tỉnh Bến Tre",
+      "password": "123",
+      "role": 0
+    },
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "name": "Admin",
+      "phone": "0348378112",
+      "address": "Ấp chợ xếp xã Tân Thành Bình Huyện Mỏ Cày Bắc tỉnh Bến Tre",
+      "password": "123",
+      "role": 1
+    }
+  ],
+  "cart": [
+    {
+      "id": 5,
+      "idOrder": 661758,
+      "product_id": 2,
+      "quantity": 2
+    },
+    {
+      "id": 6,
+      "idOrder": 661758,
+      "product_id": 3,
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "idOrder": 661759,
+      "product_id": 2,
+      "quantity": 3
+    },
+    {
+      "id": 8,
+      "idOrder": 661760,
+      "product_id": 2,
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "idOrder": 661761,
+      "product_id": 11,
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "idOrder": 661762,
+      "product_id": 10,
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "idOrder": 661763,
+      "product_id": 2,
+      "quantity": 1
+    },
+    {
+      "id": 12,
+      "idOrder": 661764,
+      "product_id": 11,
+      "quantity": 1
+    },
+    {
+      "id": 13,
+      "idOrder": 661764,
+      "product_id": 10,
+      "quantity": 1
+    }
+  ]
+}

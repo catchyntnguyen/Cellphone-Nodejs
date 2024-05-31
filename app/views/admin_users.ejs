@@ -1,0 +1,45 @@
+<%- include('admin_header.ejs')%>
+    <div class="wrapper-body">
+        <h2>Bảng Người Dùng</h2>
+        <div class="filter">
+            <a style="color: black;" href="/admin/add/user" class="filter-item">Thêm người dùng</a>
+            <div class="filter-item">Lọc <i class="fa-solid fa-caret-down"></i> </div>
+        </div>
+        <table class="table-category">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tên Người Dùng</th> 
+                    <th>Mật khẩu</th>
+                    <th>Số Điện Thoại</th>
+                    <th class="note">Địa chỉ</th>
+                    <th>Chức vụ</th>
+                    <th>Khác</th>
+                </tr>
+            </thead>
+            <tbody id="order_table">
+                <%for(let user of getUser){%>
+                    <tr>
+                        <td><%=user.id%></td>
+                        <td><%=user.name%></td>
+                        <td><%=user.password%></td>
+                        <td><%=user.phone%></td>
+                        <td class="text-note"><%=user.address%></td>
+                        <% if (user.role === 0) { %>
+                            <td>Khách Hàng</td>
+                        <% } else if (user.role === 1) { %>
+                            <td>Quản Trị</td>
+                        <% } %>
+                        <td class="fix"><a href="/admin/detail/user/<%=user.id%>">Xem Chi Tiết</a></td>
+                    </tr>
+                <%}%>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <h3>Bản quyền © 2025-2030 <span> CatchyNT</span> Đã đăng ký Bản quyền.</h3>
+        <h4>Hai Lun</h4>
+    </footer>
+
+    <%- include('admin_footer.ejs')%>

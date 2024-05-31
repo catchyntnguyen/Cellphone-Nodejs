@@ -1,0 +1,32 @@
+<%- include('admin_header.ejs')%>
+    <div class="wrapper-body">
+        <h2>Chi tiết - Cập nhật</h2>
+
+        <form action="/category_update" method="POST" enctype="multipart/form-data">
+            <div class="form-left">
+                <input type="hidden" name="userId" value="<%=detailCg[0].id%>">
+                <label for="categoryName">Tên Danh mục:</label>
+                <input type="text" id="categoryName" name="name" value="<%=detailCg[0].name%>">
+
+                <label for="image">Hình Sản Phẩm:</label>
+                <input type="file" src="<%=detailCg[0].img%>" id="image" name="image">
+            </div>
+
+            <div class="form-right">
+                <label for="description">Mô Tả:</label>
+                <textarea id="description" name="description" rows="4"
+                    value="<%=detailCg[0].description%>"><%=detailCg[0].description%></textarea>
+                <button class="btn-form" type="submit">Cập Nhật Danh Mục</button>
+            </div>
+        </form>
+        <form action="/category_del" method="POST">
+            <input type="hidden" name="userId" value="<%=detailCg[0].id%>">
+            <button style="background-color: red; margin-right: 20px;" id="btnDelateCg" class="btn-form">Xóa
+                Danh mục</button>   
+        </form>
+    </div>
+    <footer>
+        <h3>Bản quyền © 2025-2030 <span> CatchyNT</span> Đã đăng ký Bản quyền.</h3>
+        <h4>Hai Lun</h4>
+    </footer>
+    <%- include('admin_footer.ejs')%>

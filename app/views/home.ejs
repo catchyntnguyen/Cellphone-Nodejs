@@ -1,0 +1,72 @@
+<%- include('header.ejs')%>
+    <section class="show_products">
+        <!-- in ra ngay day -->
+        <div class="swiper mySwiper">
+            <div class="show_products--header" style="margin-top: 0;">
+                <div>
+                    <h2 class="title_product">Điện thoại nổi bật</h2>
+                    <div class="nav_product">
+                        <ul>
+                            <li><a href="">Apple</a></li>
+                            <li><a href="">Xem tất cả</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-wrapper" id="show_products">
+                <% for (let product of spDm1) { %>
+                    <div class="swiper-slide">
+                        <form action="/add-to-cart" method="POST">
+                            <input type="hidden" name="id" value="<%=product.id%>">
+                            <img src="assets/img/giamgia.svg" alt="">
+                            <p>Giảm: <%=Math.round((1 - (product.priceNew / product.priceOld)) * 100)%>%</p>
+                            <div class="product_layout">
+                                <div>   
+                                    <div class="imgproduct">
+                                        <a href="/product/<%=product.id%>"><img
+                                                src="/img/<%=product.img%>" alt=""></a>
+                                    </div>
+                                    <div class="name_product">
+                                        <%=product.name%>
+                                    </div>
+                                    <div class="content_product">
+                                        <%=product.description%>
+                                    </div>
+                                    <div class="price_product">
+                                        <div class="price-main">
+                                            <%=(product.priceNew !== null ? product.priceNew.toLocaleString()+"đ" : "")%>
+                                        </div>
+                                        <div class="price-2" style="text-decoration: line-through; font-size: 0.7em;">
+                                            <%=(product.priceOld !== null ? product.priceOld.toLocaleString()+"đ" : "")%>
+                                        </div>
+                                    </div>
+                                    <div class="ship_product">Giao nhanh miễn phí</div>
+                                </div>
+                                <div class="plusandemoji">
+
+                                    <button type="submit" class="muahang" id="btn_add">
+                                        <i style="color: orange; font-size: 30px;margin-left: 10px;"
+                                            class="fa-brands fa-shopify"></i>
+                                    </button>
+                                    <div class="emoj_product">Yêu thích <i class="fa-regular fa-heart"
+                                            style="color: #fa0000;"></i></i>
+                                        <div>
+                                            <div class="box">
+                                                <div class="heart"><i style="color: red;" class="fa-solid fa-heart"></i>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <% } %>
+
+            </div>
+        </div>
+
+    </section>
+
+    <%- include('footer.ejs')%>

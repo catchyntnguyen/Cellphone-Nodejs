@@ -1,0 +1,71 @@
+<%- include('header.ejs')%>
+    <main class="main_register">
+        <div class="login_img">
+            <img src="https://account.cellphones.com.vn/_nuxt/img/Shipper_CPS3.0251fdd.png" alt="">
+        </div>
+        <div class="login_title">
+            <b>Đăng ký tài khoản Smember</b><br>
+            <% if (error !=null) { %> =
+                <p style="color: red;">
+                    <%= error %>
+                </p> =
+                <% } %>
+        </div>
+        <form action="/register-create" method="POST">
+            <div class="login_input">
+                <input type="text" name="name" id="" required>
+                <label for="">Vui lòng nhập họ tên</label>
+            </div>
+            <div class="login_input">
+                <input type="text" name="phone" id="" required>
+                <label for="">Vui lòng nhập số điện thoại(Bắt buộc)</label>
+            </div>
+            <div class="login_input">
+                <input type="text" name="email" id="" required>
+                <label for="">Vui lòng nhập Email(bắt buộc)</label>
+            </div>
+            <div class="login_input">
+                <input type="text" name="password" id="" required>
+                <label for="">Vui lòng nhập mật khẩu</label>
+                <p style="font-size: 0.8em;">Mật khẩu phải nhiều hơn 8 ký tự, ít nhất 1 chữ thường 1 chữ in hoa, 1 chữ
+                    số, 1
+                    ký tự đặc biệt</p>
+            </div>
+            <div class="login_input">
+                <input type="text" name="passwordagain" id="" required>
+                <label for="">Vui lòng nhập lại mật khẩu</label>
+            </div>
+            <div class="check">
+                <label for=""><input type="checkbox" name="" id="">
+                    Tôi đồng ý với các điều khoản bảo mật cá nhân</label>
+            </div>
+            <div class="check">
+                <label for=""><input type="checkbox" name="" id="duy">
+                    Đăng ký nhận bản tin khuyến mãi qua email</label>
+            </div>
+            <div class="pwrw">
+                <a href="">Quên mật khẩu ?</a>
+            </div>
+            <button style="border: none;" class="btn_login" type="submit">
+                <b>Đăng ký</b>
+            </button>
+        </form>
+        <div class="or">
+            <div><b>Hoặc</b></div>
+            <hr>
+        </div>
+        <div class="login_with">
+            <img src="https://account.cellphones.com.vn/_nuxt/img/image45.93ceca6.png" alt="">
+            <p>Đăng nhập bằng Google</p>
+        </div>
+        <div class="login_with">
+            <img src="	https://account.cellphones.com.vn/_nuxt/img/Logo-Zalo-Arc.a36365b.png" alt="">
+            <p>Đăng nhập bằng Zalo</p>
+        </div>
+        <div class="signup">
+            <p>Bạn chưa có tài khoản ? <a href="../html/login.html">Đăng nhập ngay</a></p>
+        </div>
+
+        <div class="give"><a href=""><b>Xem chính sách ưu đãi Smember</b></a></div>
+    </main>
+    <%- include('footer.ejs')%>
